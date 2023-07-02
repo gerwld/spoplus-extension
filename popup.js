@@ -2,13 +2,27 @@
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("l3_settings");
 
-  chrome.storage.local.set({ key: "red" }, function () {
-    console.log("Value saved in local storage");
-  });
+  // Defining a custom event object
+  const formStateChangeEvent = new CustomEvent("formStateChange");
+
+  // Function to dispatch the custom event
+  function dispatchFormStateChangeEvent() {
+    window.dispatchEvent(formStateChangeEvent);
+  }
 
   // Initial state object
   const initialState = {
+    bigger_navbar: true,
+    classic_mode: true,
+    premium_btns: true,
+    static_aside: true,
+    block_images: false,
+    block_videos: false,
+    checkbox1: false,
+    checkbox2: false,
     checkbox3: false,
+    now_play_disable: false,
+    rect_avatars: false,
   };
 
   // Retrieve state from extension storage or use the initial state
@@ -22,7 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
       state[input.name] = value;
 
       // Save the updated state to extension storage
-      chrome.storage.local.set({ formState: state });
+      chrome.storage.local.set({ formState: state }, () => {
+        dispatchFormStateChangeEvent();
+      });
 
       console.log(state);
     }
