@@ -1,4 +1,3 @@
-// DOMContentLoaded event listener
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("l3_settings");
 
@@ -59,11 +58,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add event listener to each input and update the state
     const inputs = container.querySelectorAll("input");
     inputs.forEach((input) => {
-      input.addEventListener("input", updateState);
       if (input.type === "checkbox") {
-        input.removeEventListener("input", updateState);
         input.addEventListener("change", updateState);
-      }
+      } else input.addEventListener("input", updateState);
     });
 
     // Initialize the form inputs based on the state
