@@ -1,6 +1,6 @@
 {
   "name": "Spotify Classic theme",
-  "description": "Classic look of Web wersion of Spotify. Choose what you want or not want to see.",
+  "description": "Bring back classic look to web version of Spotify. Choose what you want or not want to see, change theme, and many more.",
   "version": "1.1.0",
   "manifest_version": 3,
   "icons": {
@@ -23,7 +23,16 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["assets/css/part1.css"],
+      "resources": [
+        "assets/css/bigger_navbar.css",
+        "assets/css/classic_mode.css",
+        "assets/css/premium_btns.css",
+        "assets/css/static_aside.css",
+        "assets/css/rect_avatars.css",
+        "assets/css/block_images.css",
+        "assets/css/block_videos.css",
+        "assets/css/now_play_disable.css"
+      ],
       "matches": ["<all_urls>"]
     }
   ],

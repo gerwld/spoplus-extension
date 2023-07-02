@@ -1,0 +1,8 @@
+svg,
+img {
+  display: none !important;
+}
+
+* {
+  background-image: none !important;
+}

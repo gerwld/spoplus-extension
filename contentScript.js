@@ -8,7 +8,7 @@ function setOrRemoveStylesOfItem(assetPath, item, item_id) {
       style.textContent = css;
       style.setAttribute("id", item_id);
       if (item && !current) document.head.appendChild(style);
-      else if (!item) document.head.removeChild(current);
+      else if (!item && current instanceof Node) document.head.removeChild(current);
     });
 }
 
@@ -17,8 +17,15 @@ function getCurrentState() {
     console.log(result.formState);
     const state = result.formState;
 
-    //styles setters
-    setOrRemoveStylesOfItem("/assets/css/part1.css", state.bigger_navbar, "bigger_navbar");
+    //styles setterss
+    setOrRemoveStylesOfItem("/assets/css/classic_mode.css", state.classic_mode, "classic_mode");
+    setOrRemoveStylesOfItem("/assets/css/premium_btns.css", state.premium_btns, "premium_btns");
+    setOrRemoveStylesOfItem("/assets/css/static_aside.css", state.static_aside, "static_aside");
+    setOrRemoveStylesOfItem("/assets/css/rect_avatars.css", state.rect_avatars, "rect_avatars");
+    setOrRemoveStylesOfItem("/assets/css/block_images.css", state.block_images, "block_images");
+    setOrRemoveStylesOfItem("/assets/css/block_videos.css", state.block_videos, "block_videos");
+    setOrRemoveStylesOfItem("/assets/css/bigger_navbar.css", state.bigger_navbar, "bigger_navbar");
+    setOrRemoveStylesOfItem("/assets/css/now_play_disable.css", state.now_play_disable, "now_play_disable");
   });
 }
 
