@@ -1,7 +1,7 @@
 {
   "name": "Spotify Classic theme",
   "description": "Classic look of Web wersion of Spotify. Choose what you want or not want to see.",
-  "version": "2.1.0",
+  "version": "1.1.0",
   "manifest_version": 3,
   "icons": {
     "16": "/assets/icons/icon16.png",
@@ -23,10 +23,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://www.google.com/*", "https://www.buymeacoffee.com/*"],
-      "js": ["content.js"],
+      "matches": ["https://www.google.com/*", "https://google.com/"],
+      "js": ["contentScript.js"],
       "css": ["assets/index.css"]
     }
   ],
-  "permissions": ["activeTab", "storage", "https://ajax.googleapis.com/"]
+  "permissions": ["activeTab", "storage", "webRequest"]
 }

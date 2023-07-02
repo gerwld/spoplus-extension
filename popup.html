@@ -1,47 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify Classic theme</title>
-    <link rel="stylesheet" href="assets/index.css" />
-  </head>
-  <body class="">
-    <section class="header">
-      <div class="logo">
-        <span class="logo_title">Spotify Classic theme</span>
-        <img src="./assets/img/logo.png" alt="Spotify Classic Plugin" class="logo_img" />
-      </div>
-    </section>
-    <section class="content">
-      <label class="ch_ip">
-        <input type="checkbox" name="1" checked />
-        <span class="ch_sp"></span>
-        Disable Premium buttons
-      </label>
-      <label class="ch_ip">
-        <input type="checkbox" name="1" checked />
-        <span class="ch_sp"></span>
-        Enable "Classic Mode"
-      </label>
-      <label class="ch_ip">
-        <input type="checkbox" name="1" checked />
-        <span class="ch_sp"></span>
-        Make Navbar bigger
-      </label>
-      <label class="ch_ip">
-        <input type="checkbox" name="1" checked />
-        <span class="ch_sp"></span>
-        Keep Aside width static
-      </label>
-    </section>
+<script type="module" src="popup.js"></script>
+<link rel="stylesheet" href="assets/index.css" />
 
-    <footer>
-      <nav class="links">
-        <a href="https://www.buymeacoffee.com/pjaworski" target="_blank">
-          <img src="./assets/img/bmc.png" alt="Support Us"
-        /></a>
-      </nav>
-    </footer>
-  </body>
-</html>
+<section class="header">
+  <div class="logo">
+    <span class="logo_title">Spotify Classic theme</span>
+    <img src="./assets/img/logo.png" alt="Spotify Classic Plugin" class="logo_img" />
+  </div>
+</section>
+
+<section class="content">
+  <form name="l3_settings" id="l3_settings">
+    <span class="sect_lable"> Main features: </span>
+    <label class="ch_ip">
+      <input type="checkbox" name="premium_btns" checked />
+      <span class="ch_sp"></span>
+      Disable Premium buttons
+    </label>
+    <label class="ch_ip">
+      <input type="checkbox" name="classic_mode" checked />
+      <span class="ch_sp"></span>
+      Enable "Classic Mode"
+    </label>
+    <label class="ch_ip">
+      <input type="checkbox" name="bigger_navbar" checked />
+      <span class="ch_sp"></span>
+      Make Navbar bigger
+    </label>
+    <label class="ch_ip">
+      <input type="checkbox" name="static_aside" checked />
+      <span class="ch_sp"></span>
+      Keep Aside width static
+    </label>
+    <span class="sect_lable"> Additional features: </span>
+    <label class="ch_ip">
+      <input type="checkbox" name="rect_avatars" checked />
+      <span class="ch_sp"></span>
+      Make all avatars rectangle
+    </label>
+    <label class="ch_ip">
+      <input type="checkbox" name="now_play_disable" checked />
+      <span class="ch_sp"></span>
+      Disable "now playing view"
+    </label>
+    <label class="ch_ip">
+      <input type="checkbox" name="block_videos" checked />
+      <span class="ch_sp"></span>
+      Block all videos to reduce traffic usage (experimental)
+    </label>
+    <label class="ch_ip">
+      <input type="checkbox" name="block_images" checked />
+      <span class="ch_sp"></span>
+      Block all images to reduce traffic usage (experimental)
+    </label>
+
+    <span class="sect_lable"> Color palette: </span>
+    <label class="ch_ip">
+      <input type="checkbox" name="1" checked />
+      <span class="ch_sp"></span>
+      Block all images to reduce traffic usage (experimental)
+    </label>
+  </form>
+</section>
+
+<footer>
+  <nav class="links">
+    <a href="https://www.buymeacoffee.com/pjaworski" target="_blank">
+      <img src="./assets/img/bmc.png" alt="Support Us"
+    /></a>
+  </nav>
+</footer>
