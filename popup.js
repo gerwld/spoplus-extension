@@ -15,13 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
     classic_mode: true,
     premium_btns: true,
     static_aside: true,
+
     block_images: false,
     block_videos: false,
-    checkbox1: false,
-    checkbox2: false,
-    checkbox3: false,
-    now_play_disable: false,
     rect_avatars: false,
+    square_shaped: false,
+    now_play_disable: false,
   };
 
   // Retrieve state from extension storage or use the initial state
@@ -44,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Function to update form inputs based on the state object
     function updateFormInputs() {
-      const inputs = document.getElementsByTagName("input");
+      const inputs = document.querySelectorAll("input, select");
       for (let i = 0; i < inputs.length; i++) {
         const input = inputs[i];
         if (input.type === "checkbox") {
@@ -56,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Add event listener to each input and update the state
-    const inputs = container.querySelectorAll("input");
+    const inputs = container.querySelectorAll("input, select");
     inputs.forEach((input) => {
       if (input.type === "checkbox") {
         input.addEventListener("change", updateState);

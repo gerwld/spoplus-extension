@@ -3,7 +3,7 @@
 
 <section class="header">
   <div class="logo">
-    <span class="logo_title">Spotify Classic theme</span>
+    <span class="logo_title">Spotify Theme editor</span>
     <img src="./assets/img/logo.png" alt="Spotify Classic Plugin" class="logo_img" />
   </div>
 </section>
@@ -14,7 +14,7 @@
     <label class="ch_ip">
       <input type="checkbox" name="premium_btns" checked />
       <span class="ch_sp"></span>
-      Disable Premium buttons
+      Hide Header Premium & App buttons
     </label>
     <label class="ch_ip">
       <input type="checkbox" name="classic_mode" checked />
@@ -29,7 +29,7 @@
     <label class="ch_ip">
       <input type="checkbox" name="static_aside" checked />
       <span class="ch_sp"></span>
-      Keep Aside width static
+      Keep Aside menu width static
     </label>
     <span class="sect_lable"> Additional features: </span>
     <label class="ch_ip">
@@ -43,6 +43,11 @@
       Disable "now playing view"
     </label>
     <label class="ch_ip">
+      <input type="checkbox" name="square_shaped" checked />
+      <span class="ch_sp"></span>
+      Make everything square shaped (experimental)
+    </label>
+    <label class="ch_ip">
       <input type="checkbox" name="block_videos" checked />
       <span class="ch_sp"></span>
       Block all videos to reduce traffic usage (experimental)
@@ -53,11 +58,27 @@
       Block all images to reduce traffic usage (experimental)
     </label>
 
-    <span class="sect_lable"> Color palette: </span>
-    <label class="ch_ip">
-      <input type="checkbox" name="1" checked />
-      <span class="ch_sp"></span>
-      Block all images to reduce traffic usage (experimental)
+    <span class="sect_lable"> Color palette / font: </span>
+    <label class="ch_lp">
+      <span class="label">Select theme:</span>
+      <select name="theme" id="theme">
+        <option value="default">Default (Dark Green)</option>
+        <option value="light_green">Light Green</option>
+        <option value="purple_dark">Dark Purple</option>
+        <option value="kittens">Kittens</option>
+      </select>
+    </label>
+    <label class="ch_lp">
+      <span class="label">Select font:</span>
+      <select name="font" id="font">
+        <option value="default">Default (CircularSpTitle)</option>
+        <option value="roboto">Roboto Condensed</option>
+        <option value="poppins">Poppins</option>
+        <option value="caprasimo">Caprasimo</option>
+        <option value="playfair">Playfair</option>
+        <option value="merriweather">Merriweather</option>
+        <option value="noto_sans">Noto Sans</option>
+      </select>
     </label>
   </form>
 </section>

@@ -61,6 +61,30 @@ a img {
   border-bottom: 1px solid #caced3;
 }
 
+.ch_lp {
+  display: block;
+  padding: 0 10px 0;
+  margin-bottom: 10px;
+}
+
+.ch_lp .label {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 0.72rem;
+}
+
+.ch_lp select {
+  display: block;
+  width: 100%;
+  height: 26px;
+  box-sizing: border-box;
+  border-radius: 0;
+  border-color: #a3acb1;
+  background-color: #fff;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
 /* ----------------------- checkbox styles ----------------------- */
 
 .ch_ip {

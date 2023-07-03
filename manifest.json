@@ -1,7 +1,7 @@
 {
-  "name": "Spotify Classic theme",
+  "name": "Spotify Theme editor",
   "description": "Bring back classic look to web version Spotify. Choose what you want or not want to see, change theme, and many more.",
-  "version": "0.2 beta",
+  "version": "0.2",
   "manifest_version": 3,
   "icons": {
     "16": "/assets/icons/icon16.png",
@@ -31,7 +31,8 @@
         "assets/css/rect_avatars.css",
         "assets/css/block_images.css",
         "assets/css/block_videos.css",
-        "assets/css/now_play_disable.css"
+        "assets/css/now_play_disable.css",
+        "assets/css/square_shaped.css"
       ],
       "matches": ["<all_urls>"]
     }
@@ -43,5 +44,5 @@
       "css": ["assets/index.css"]
     }
   ],
-  "permissions": ["activeTab", "storage", "webRequest"]
+  "permissions": ["storage"]
 }

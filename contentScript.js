@@ -1,3 +1,5 @@
+let interval0, interval1, interval2;
+
 function setOrRemoveStylesOfItem(assetPath, item, item_id) {
   // Fetch the CSS file and append it
   fetch(chrome.runtime.getURL(assetPath))
@@ -12,34 +14,70 @@ function setOrRemoveStylesOfItem(assetPath, item, item_id) {
     });
 }
 
-function toggleNowPlayBlock(assetPath, state, localStorageID) {
+function toggleNowPlayBlock(assetPath, state, localStorageIDs) {
   setOrRemoveStylesOfItem(assetPath, state, "now_play_disable");
-  function closeNowPlay() {
-    let currentLS = localStorage.getItem("182yfcl2wcrumva06hlhooydu:ui-panel-state");
-    if (currentLS !== 0) {
-      localStorage.setItem("182yfcl2wcrumva06hlhooydu:ui-panel-state", 0);
+  function toggle() {
+    localStorageIDs.forEach((localStorageKey) => {
+      const current = localStorage.getItem(localStorageKey);
+      if (state && current != 0) {
+        localStorage.setItem(localStorageKey, 0);
+      }
+    });
+  }
+
+  if (state) interval0 = setInterval(toggle, 200);
+  else clearInterval(interval0);
+}
+
+function toggleStaticAside(assetPath, state) {
+  setOrRemoveStylesOfItem(assetPath, state, "static_aside");
+
+  function setStatic() {
+    const currentWidth = localStorage.getItem("182yfcl2wcrumva06hlhooydu:ylx-default-state-nav-bar-width");
+    const isClosed = localStorage.getItem("182yfcl2wcrumva06hlhooydu:ylx-sidebar-state");
+    if ((currentWidth < 400 || isClosed == 1) && state) {
+      localStorage.setItem("182yfcl2wcrumva06hlhooydu:library-row-mode", 1);
+      localStorage.setItem("182yfcl2wcrumva06hlhooydu:ylx-sidebar-state", 0);
+      localStorage.setItem("182yfcl2wcrumva06hlhooydu:ylx-default-state-nav-bar-width", 400);
+      window.location.reload();
     }
   }
-  // setInterval(closeNowPlay, 1000);
+  if (state) interval1 = setInterval(setStatic, 200);
+  else clearInterval(interval1);
+}
+
+function toggleClassicMode(assetPath, state) {
+  setOrRemoveStylesOfItem(assetPath, state, "classic_mode");
+
+  function setClassic() {
+    const mode = localStorage.getItem("182yfcl2wcrumva06hlhooydu:library-row-mode");
+    if (mode == 0 && state) {
+      localStorage.setItem("182yfcl2wcrumva06hlhooydu:library-row-mode", 1);
+      window.location.reload();
+    }
+  }
+
+  if (state) interval2 = setInterval(setClassic, 200);
+  else clearInterval(interval2);
 }
 
 function getCurrentState() {
   chrome.storage.local.get("formState", (result) => {
     const state = result.formState;
 
-    //styles setterss
-    setOrRemoveStylesOfItem("/assets/css/classic_mode.css", state.classic_mode, "classic_mode");
+    //Styles setters
     setOrRemoveStylesOfItem("/assets/css/premium_btns.css", state.premium_btns, "premium_btns");
-    setOrRemoveStylesOfItem("/assets/css/static_aside.css", state.static_aside, "static_aside");
     setOrRemoveStylesOfItem("/assets/css/rect_avatars.css", state.rect_avatars, "rect_avatars");
     setOrRemoveStylesOfItem("/assets/css/block_images.css", state.block_images, "block_images");
     setOrRemoveStylesOfItem("/assets/css/block_videos.css", state.block_videos, "block_videos");
     setOrRemoveStylesOfItem("/assets/css/bigger_navbar.css", state.bigger_navbar, "bigger_navbar");
-    toggleNowPlayBlock(
-      "/assets/css/now_play_disable.css",
-      state.now_play_disable,
-      "182yfcl2wcrumva06hlhooydu:ylx-sidebar-state"
-    );
+    toggleNowPlayBlock("/assets/css/now_play_disable.css", state.now_play_disable, [
+      "182yfcl2wcrumva06hlhooydu:ui-panel-state",
+      "182yfcl2wcrumva06hlhooydu:ylx-sidebar-state",
+    ]);
+    toggleStaticAside("/assets/css/static_aside.css", state.static_aside);
+    toggleClassicMode("/assets/css/classic_mode.css", state.classic_mode);
+    setOrRemoveStylesOfItem("/assets/css/square_shaped.css", state.square_shaped, "square_shaped");
   });
 }
 
