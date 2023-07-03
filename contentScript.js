@@ -12,9 +12,19 @@ function setOrRemoveStylesOfItem(assetPath, item, item_id) {
     });
 }
 
+function toggleNowPlayBlock(assetPath, state, localStorageID) {
+  setOrRemoveStylesOfItem(assetPath, state, "now_play_disable");
+  function closeNowPlay() {
+    let currentLS = localStorage.getItem("182yfcl2wcrumva06hlhooydu:ui-panel-state");
+    if (currentLS !== 0) {
+      localStorage.setItem("182yfcl2wcrumva06hlhooydu:ui-panel-state", 0);
+    }
+  }
+  // setInterval(closeNowPlay, 1000);
+}
+
 function getCurrentState() {
   chrome.storage.local.get("formState", (result) => {
-    console.log(result.formState);
     const state = result.formState;
 
     //styles setterss
@@ -25,7 +35,11 @@ function getCurrentState() {
     setOrRemoveStylesOfItem("/assets/css/block_images.css", state.block_images, "block_images");
     setOrRemoveStylesOfItem("/assets/css/block_videos.css", state.block_videos, "block_videos");
     setOrRemoveStylesOfItem("/assets/css/bigger_navbar.css", state.bigger_navbar, "bigger_navbar");
-    setOrRemoveStylesOfItem("/assets/css/now_play_disable.css", state.now_play_disable, "now_play_disable");
+    toggleNowPlayBlock(
+      "/assets/css/now_play_disable.css",
+      state.now_play_disable,
+      "182yfcl2wcrumva06hlhooydu:ylx-sidebar-state"
+    );
   });
 }
 

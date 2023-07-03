@@ -1,7 +1,7 @@
 {
   "name": "Spotify Classic theme",
-  "description": "Bring back classic look to web version of Spotify. Choose what you want or not want to see, change theme, and many more.",
-  "version": "1.1.0",
+  "description": "Bring back classic look to web version Spotify. Choose what you want or not want to see, change theme, and many more.",
+  "version": "0.2 beta",
   "manifest_version": 3,
   "icons": {
     "16": "/assets/icons/icon16.png",
@@ -38,7 +38,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://www.google.com/*", "https://google.com/"],
+      "matches": ["https://open.spotify.com/*", "https://open.spotify.com/"],
       "js": ["contentScript.js"],
       "css": ["assets/index.css"]
     }
