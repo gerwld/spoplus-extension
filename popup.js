@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const initialState = {
     bigger_navbar: true,
     classic_mode: true,
-    premium_btns: true,
+    premium_btns: false,
     static_aside: true,
 
     block_images: false,
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     square_shaped: false,
     now_play_disable: false,
     theme: "default",
-    font: "default",
+    font: "poppins",
   };
 
   // Retrieve state from extension storage or use the initial state

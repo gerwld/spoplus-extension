@@ -43,7 +43,7 @@ function toggleNowPlayBlock(assetPath, state, localStorageIDs) {
     });
   }
 
-  if (state) interval0 = setInterval(toggle, 200);
+  if (state) interval0 = setInterval(toggle, 700);
   else clearInterval(interval0);
 }
 
@@ -59,7 +59,7 @@ function toggleStaticAside(assetPath, state) {
       window.location.reload();
     }
   }
-  if (state) interval1 = setInterval(setStatic, 200);
+  if (state) interval1 = setInterval(setStatic, 700);
   else clearInterval(interval1);
 }
 
