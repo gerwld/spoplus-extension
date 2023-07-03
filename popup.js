@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
     rect_avatars: false,
     square_shaped: false,
     now_play_disable: false,
+    theme: "default",
+    font: "default",
   };
 
   // Retrieve state from extension storage or use the initial state

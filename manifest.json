@@ -32,7 +32,18 @@
         "assets/css/block_images.css",
         "assets/css/block_videos.css",
         "assets/css/now_play_disable.css",
-        "assets/css/square_shaped.css"
+        "assets/css/square_shaped.css",
+
+        "assets/css/fonts/roboto.css",
+        "assets/css/fonts/poppins.css",
+        "assets/css/fonts/caprasimo.css",
+        "assets/css/fonts/playfair.css",
+        "assets/css/fonts/merriweather.css",
+        "assets/css/fonts/noto_sans.css",
+
+        "assets/css/themes/light_green.css",
+        "assets/css/themes/purple_dark.css",
+        "assets/css/themes/kittens.css"
       ],
       "matches": ["<all_urls>"]
     }

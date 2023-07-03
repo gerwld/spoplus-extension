@@ -1,4 +1,22 @@
 let interval0, interval1, interval2;
+const fonts = ["roboto", "poppins", "caprasimo", "playfair", "merriweather", "noto_sans"];
+const themes = ["light_green", "purple_dark", "kittens"];
+
+function setTheme(selectedTheme) {
+  // Set theme if exists, then delete others
+  if (themes.indexOf(selectedTheme) !== -1) {
+    setOrRemoveStylesOfItem(`/assets/css/themes/${selectedTheme}.css`, true, selectedTheme);
+  }
+  themes.filter((e) => e !== selectedTheme).forEach((theme) => document.getElementById(theme)?.remove());
+}
+
+function setFont(selectedFont) {
+  // Set font if exists, then delete others
+  if (fonts.indexOf(selectedFont) !== -1) {
+    setOrRemoveStylesOfItem(`/assets/css/fonts/${selectedFont}.css`, true, selectedFont);
+  }
+  fonts.filter((e) => e !== selectedFont).forEach((font) => document.getElementById(font)?.remove());
+}
 
 function setOrRemoveStylesOfItem(assetPath, item, item_id) {
   // Fetch the CSS file and append it
@@ -31,7 +49,6 @@ function toggleNowPlayBlock(assetPath, state, localStorageIDs) {
 
 function toggleStaticAside(assetPath, state) {
   setOrRemoveStylesOfItem(assetPath, state, "static_aside");
-
   function setStatic() {
     const currentWidth = localStorage.getItem("182yfcl2wcrumva06hlhooydu:ylx-default-state-nav-bar-width");
     const isClosed = localStorage.getItem("182yfcl2wcrumva06hlhooydu:ylx-sidebar-state");
@@ -48,7 +65,6 @@ function toggleStaticAside(assetPath, state) {
 
 function toggleClassicMode(assetPath, state) {
   setOrRemoveStylesOfItem(assetPath, state, "classic_mode");
-
   function setClassic() {
     const mode = localStorage.getItem("182yfcl2wcrumva06hlhooydu:library-row-mode");
     if (mode == 0 && state) {
@@ -56,7 +72,6 @@ function toggleClassicMode(assetPath, state) {
       window.location.reload();
     }
   }
-
   if (state) interval2 = setInterval(setClassic, 200);
   else clearInterval(interval2);
 }
@@ -78,6 +93,8 @@ function getCurrentState() {
     toggleStaticAside("/assets/css/static_aside.css", state.static_aside);
     toggleClassicMode("/assets/css/classic_mode.css", state.classic_mode);
     setOrRemoveStylesOfItem("/assets/css/square_shaped.css", state.square_shaped, "square_shaped");
+    setTheme(state.theme);
+    setFont(state.font);
   });
 }
 
