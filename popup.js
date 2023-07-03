@@ -1,3 +1,5 @@
+import { initialState } from "./store.js";
+
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("l3_settings");
 
@@ -9,25 +11,15 @@ document.addEventListener("DOMContentLoaded", () => {
     window.dispatchEvent(formStateChangeEvent);
   }
 
-  // Initial state object
-  const initialState = {
-    bigger_navbar: true,
-    classic_mode: true,
-    premium_btns: false,
-    static_aside: true,
-
-    block_images: false,
-    block_videos: false,
-    rect_avatars: false,
-    square_shaped: false,
-    now_play_disable: false,
-    theme: "default",
-    font: "poppins",
-  };
-
   // Retrieve state from extension storage or use the initial state
   chrome.storage.local.get("formState", (result) => {
     let state = result.formState || { ...initialState };
+
+    if (!result.formState) {
+      chrome.storage.local.set({ formState: state }, () => {
+        dispatchFormStateChangeEvent();
+      });
+    }
 
     // Function to update the state object and form inputs
     function updateState(event) {
@@ -39,8 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
       chrome.storage.local.set({ formState: state }, () => {
         dispatchFormStateChangeEvent();
       });
-
-      console.log(state);
     }
 
     // Function to update form inputs based on the state object

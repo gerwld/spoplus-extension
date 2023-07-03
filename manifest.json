@@ -1,7 +1,7 @@
 {
   "name": "Spotify Theme editor",
   "description": "Bring back classic look to web version Spotify. Choose what you want or not want to see, change theme, and many more.",
-  "version": "0.2",
+  "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
     "16": "/assets/icons/icon16.png",
@@ -24,6 +24,7 @@
   "web_accessible_resources": [
     {
       "resources": [
+        "store.js",
         "assets/css/bigger_navbar.css",
         "assets/css/classic_mode.css",
         "assets/css/premium_btns.css",

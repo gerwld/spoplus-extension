@@ -2,6 +2,12 @@ let interval0, interval1, interval2;
 const fonts = ["roboto", "poppins", "caprasimo", "playfair", "merriweather", "noto_sans"];
 const themes = ["light_green", "purple_dark", "kittens"];
 
+//Init LS if not exists
+(async () => {
+  const store = await import(chrome.runtime.getURL("/store.js"));
+  store.initStateIfNotExist();
+})();
+
 function setTheme(selectedTheme) {
   // Set theme if exists, then delete others
   if (themes.indexOf(selectedTheme) !== -1) {
