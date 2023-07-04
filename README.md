@@ -11,6 +11,8 @@ Spotify Theme Editor is a powerful Google Chrome extension that allows you to cu
 
 ## Installation
 
+Spotify Theme Editor is available on the [Google Chrome Store](https://chrome.google.com/webstore/detail/spotify-theme-editor/ijkboaojikgaanlgigobkmbpnjgjljnc). Visit the store page and click on the "Add to Chrome" button to install the extension directly to your browser.
+
 You can download the latest version of Spotify Theme Editor from the [Releases](https://github.com/gerwld/spotify-theme-editor/releases) page. Choose the appropriate version for your operating system and follow the installation instructions provided.
 
 ## Usage
