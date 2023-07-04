@@ -30,7 +30,11 @@ Contributions are welcome! If you find any issues or have ideas for new features
 
 ## License
 
-Spotify Theme Editor is released under the [License Name]. See the [LICENSE](LICENSE) file for more details.
+Spotify Theme Editor is released under the Creative Commons Attribution-NonCommercial License (CC BY-NC). This means that others are free to use, modify, and distribute the extension for non-commercial purposes, as long as they provide attribution to the original creator (gerwld). Commercial use of the extension is not allowed without explicit permission.
+
+See the [LICENSE](LICENSE) file for more details.
+
+For any inquiries regarding commercial use or permission, please contact gerwld at pjaworski.dev@gmail.com.
 
 ## Contact
 
