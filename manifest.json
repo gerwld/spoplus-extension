@@ -52,8 +52,7 @@
   "content_scripts": [
     {
       "matches": ["https://open.spotify.com/*", "https://open.spotify.com/"],
-      "js": ["contentScript.js"],
-      "css": ["assets/index.css"]
+      "js": ["contentScript.js"]
     }
   ],
   "permissions": ["storage"]

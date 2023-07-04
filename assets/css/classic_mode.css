@@ -39,7 +39,7 @@ li[role="listitem"] *,
 li[role="listitem"] {
   display: flex;
   align-items: center;
-  color: #fff !important;
+  color: #fff;
   min-height: 35px;
   font-size: 0.9rem;
   white-space: nowrap;
