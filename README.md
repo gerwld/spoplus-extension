@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gerwld/spotify-theme-editor/10515a6ce473be263f2a5dab5659e57ff288b4f7/assets/img/logo.svg" width="75" height="75"/>
+  <img src="https://raw.githubusercontent.com/gerwld/spotify-theme-editor/6b756f71c5895ee285dfe42a0a47525e3796ffac/assets/img/logo_small.svg" width="75" height="75"/>
 </p>
 
 <h1 align="center">Spotify Theme Editor</h1>
