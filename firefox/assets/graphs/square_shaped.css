@@ -1,0 +1,20 @@
+/*
+//   - This file is part of SpoPlus Extension
+//  <https://github.com/gerwld/SpoPlus-extension/blob/main/README.md>,
+//   - Copyright (C) 2023-present SpoPlus Extension
+//   -
+//   - SpoPlus Extension is a software: you can redistribute it, but you are not allowed to modify it under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License.
+//   -
+//   - SpoPlus Extension is distributed in the hope that it will be useful,
+//   - but WITHOUT ANY WARRANTY; without even the implied warranty of
+//   - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//   - Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License for more details.
+//   -
+//   - You should have received a copy of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License
+//   - along with SpoPlus Extension.  If not, see <https://creativecommons.org/licenses/by-nc-nd/4.0/>.
+
+
+// Note: Spotify is a registered trademark of Spotify AB. This extension is not affiliated with or endorsed by Spotify AB.
+*/
+
+*,::after,::before,a,button,div,img{border-radius:0!important}body .Button-sc-1dqy6lx-0,body .Xz3tlahv16UpqKBW5HdK,body .btn,body .dQCgoh,body .fJGlei::after,body .yYflTYbufy7rATGQiZfq,body [data-testid=tracklist-row] .btn,body button.VgSbatGBB9XwTH2_dsxg,body button.ql0zZd7giPXSnPg75NR0,body button[data-testid=play-button],body button[data-testid=play-button]>span,body figure.tp8rO9vtqBGPLOhwcdYv,body figure.tp8rO9vtqBGPLOhwcdYv>div{border-radius:0!important}

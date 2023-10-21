@@ -1,0 +1,69 @@
+{
+  "name": "SpoPlus - Edit Spotify Theme & Setttings",
+  "description": "2023 Spotify extension that allows you to setup new themes, fonts, remove annoying notifications, popups, and so on!",
+  "version": "1.1.5",
+  "manifest_version": 3,
+  "icons": {
+    "128": "/assets/icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "/assets/icons/icon128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/js/init.js",
+        "assets/graphs/index.css",
+        "assets/graphs/main.css",
+        "assets/graphs/bigger_navbar.css",
+        "assets/graphs/focus_mode.css",
+        "assets/graphs/header_btns.css",
+        "assets/graphs/static_aside.css",
+        "assets/graphs/rect_avatars.css",
+        "assets/graphs/block_images.css",
+        "assets/graphs/block_videos.css",
+        "assets/graphs/now_play_disable.css",
+        "assets/graphs/square_shaped.css",
+        "assets/graphs/themes/kittens.css",
+        "assets/graphs/themes/light_green.css",
+        "assets/graphs/themes/purple_dark.css",
+        "/assets/graphs/fonts/noto_sans.css",
+        "/assets/graphs/fonts/roboto.css",
+        "/assets/graphs/fonts/poppins.css",
+        "/assets/graphs/fonts/playfair.css",
+        "/assets/graphs/fonts/merriweather.css",
+        "/assets/graphs/fonts/noto_sans.css",
+        "/assets/graphs/fonts/nunito.css",
+        "/assets/graphs/fonts/montserrat.css",
+        "/assets/graphs/fonts/pixelify.css",
+        "/assets/graphs/fonts/gabarito.css",
+        "/assets/graphs/fonts/roboto_condensed.css",
+        "/assets/graphs/fonts/inter.css"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://open.spotify.com/*"
+      ],
+      "js": [
+        "/assets/js/content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "service_worker": "/assets/js/background.js",
+    "type": "module"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
