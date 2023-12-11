@@ -10,7 +10,7 @@ Extension that allows you to customize and personalize the web version of Spotif
 
 ***
 
-<p align="center"><a rel="noreferrer noopener" href="https://chrome.google.com/webstore/detail/chesshelper-improve-chess/kdkckejnngdmlcephpnfaggaeofloode/"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>  <a rel="noreferrer noopener" href="https://addons.mozilla.org/en-US/firefox/addon/chesshelper/"><img alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox-141e24.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white"></a>  <a rel="noreferrer noopener" title="Very Soon (on review)" href="#mc"><img alt="Edge Addons" src="https://img.shields.io/badge/Edge-141e24.svg?&style=for-the-badge&logo=microsoft-edge&logoColor=white"></a>  <a href="#soon" title="Soon" rel="noreferrer noopener"><img height="28" alt="Apple App Store" src="https://img.shields.io/badge/Safari-141e24.svg?&style=for-the-badge&logo=microsoft-edge&logoColor=white"></a>
+<p align="center"><a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/spoplus-edit-spotify-them/ijkboaojikgaanlgigobkmbpnjgjljnc"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>  <a rel="noreferrer noopener" href="https://addons.mozilla.org/en-US/firefox/addon/spoplus/"><img alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox-141e24.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white"></a>  <a rel="noreferrer noopener" href="https://microsoftedge.microsoft.com/addons/detail/spoplus-edit-spotify-th/lgdkbggfepmoagpcgbiblopcllepifjn"><img alt="Edge Addons" src="https://img.shields.io/badge/Edge-141e24.svg?&style=for-the-badge&logo=microsoft-edge&logoColor=white"></a>  <a href="#soon" title="Soon" rel="noreferrer noopener"><img height="28" alt="Apple App Store" src="https://img.shields.io/badge/Safari-141e24.svg?&style=for-the-badge&logo=microsoft-edge&logoColor=white"></a>
 
 
 
@@ -23,7 +23,7 @@ Extension that allows you to customize and personalize the web version of Spotif
 
 ## Installation
 
-SpoPlus is available on the [Google Chrome Store](https://chrome.google.com/webstore/detail/spotify-theme-editor/ijkboaojikgaanlgigobkmbpnjgjljnc), [Firefox Web Store](https://addons.mozilla.org/en-US/firefox/addon/chesshelper/) and [Microsoft Edge Store](#ms). Visit the store page and click on the "Add" button to install the extension directly to your browser.
+SpoPlus is available on the [Google Chrome Store](https://chromewebstore.google.com/detail/spoplus-edit-spotify-them/ijkboaojikgaanlgigobkmbpnjgjljnc), [Firefox Web Store](https://addons.mozilla.org/en-US/firefox/addon/spoplus/) and [Microsoft Edge Store](https://microsoftedge.microsoft.com/addons/detail/spoplus-edit-spotify-th/lgdkbggfepmoagpcgbiblopcllepifjn). Visit the store page and click on the "Add" button to install the extension directly to your browser.
 
 You can also download the latest version of SpoPlus Extension from the [Releases](https://github.com/gerwld/spotify-theme-editor/releases) page. Choose the appropriate version for your operating system and follow the installation instructions provided.
 
