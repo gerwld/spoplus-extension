@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "SpoPlus - Edit Spotify Theme & Settings",
-  "description": "2023 Spotify extension that allows you to set up new themes, fonts, remove annoying notifications, popups, and more!",
-  "version": "1.1.5",
+  "description": "2024 Spotify extension that allows you to set up new themes, fonts, remove annoying notifications, popups, and more!",
+  "version": "1.1.7",
   "icons": {
     "128": "assets/icons/icon128.png"
   },
@@ -62,7 +62,9 @@
     "/assets/graphs/fonts/pixelify.css",
     "/assets/graphs/fonts/gabarito.css",
     "/assets/graphs/fonts/roboto_condensed.css",
-    "/assets/graphs/fonts/inter.css"
+    "/assets/graphs/fonts/inter.css",
+    "/assets/graphs/img/cup-border.png",
+    "/assets/img/logo.svg"
   ],
   "browser_specific_settings": {
     "gecko": {
