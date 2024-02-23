@@ -5,7 +5,7 @@
 
 
 <p align="center">
-Extension that allows you to customize and personalize the web version of Spotify. Transform the Spotify interface into a personalized experience that reflects your style and preferences.
+Transform the Spotify interface into a personalized experience that reflects your style and preferences.
 </p>
 
 ***
@@ -16,10 +16,9 @@ Extension that allows you to customize and personalize the web version of Spotif
 
 ## Features
 
-- **Interface Customization:** Modify the Spotify web version to suit your preferences. Choose what elements to display or hide, giving you a clutter-free and personalized interface.
+- **Navigation Features:** Modify the Spotify web version to suit your preferences. Choose what elements to display or hide, giving you a clutter-free and personalized interface.
 - **Theme Selection:** Change the default theme of Spotify with a wide range of options. Select from modern, minimalistic, vibrant, or other themes that align with your style and mood.
 - **Element Styling:** Customize specific parts of the Spotify interface, such as the sidebar, fonts, or colors. Tailor the appearance to create a cohesive and visually appealing experience.
-- **Enhanced User Experience:** Enjoy an improved browsing experience with a user-friendly and intuitive interface. Our extension seamlessly integrates into Spotify, ensuring a smooth and effortless customization process.
 
 ## Installation
 
@@ -33,8 +32,6 @@ Once the extension is installed, follow these steps to start customizing your Sp
 
 1. **Activation:** Open the web version of Spotify in your Browser.
 2. **Extension Access:** Click on the SpoPlus Extension extension icon in the browser toolbar to activate it.
-3. **Customization:** Access the extension options to start customizing your Spotify experience. Choose from various customization features, including element visibility, theme selection, and element styling.
-4. **Enjoy!** Sit back, relax, and enjoy your personalized Spotify interface.
 
 ## Contributing
 
