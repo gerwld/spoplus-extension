@@ -1,13 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "SpoPlus - Edit Spotify Theme & Settings",
-  "description": "2024 Spotify extension that allows you to set up new themes, fonts, remove annoying notifications, popups, and more!",
-  "version": "1.1.7",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.2.5",
+  "default_locale": "en",
   "icons": {
     "128": "assets/icons/icon128.png"
   },
   "browser_action": {
-    "default_popup": "popup.html",
+    "default_popup": "contents/popup.html",
     "default_icon": {
       "128": "assets/icons/icon128.png"
     }
@@ -48,7 +49,7 @@
     "assets/graphs/block_videos.css",
     "assets/graphs/now_play_disable.css",
     "assets/graphs/square_shaped.css",
-    "assets/graphs/themes/kittens.css",
+    "assets/graphs/themes/dark_pink.css",
     "assets/graphs/themes/light_green.css",
     "assets/graphs/themes/purple_dark.css",
     "/assets/graphs/fonts/noto_sans.css",
@@ -64,7 +65,13 @@
     "/assets/graphs/fonts/roboto_condensed.css",
     "/assets/graphs/fonts/inter.css",
     "/assets/graphs/img/cup-border.png",
-    "/assets/img/logo.svg"
+    "/assets/img/logo.svg",
+    "assets/graphs/themes/light_purple.css",
+    "assets/graphs/themes/dark_red.css",
+    "assets/graphs/themes/dark_yellow.css",
+    "assets/graphs/themes/dark_blue.css",
+    "assets/graphs/themes/amoled.css",
+    "assets/graphs/themes/amoled_night.css"
   ],
   "browser_specific_settings": {
     "gecko": {

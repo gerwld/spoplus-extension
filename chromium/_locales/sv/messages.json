@@ -1,0 +1,170 @@
+{
+  "extensionName": {
+    "message": "SpoPlus - Redigera Spotify Tema & Inställningar"
+  },
+  "extensionDescription": {
+    "message": "2024 Spotify-tillägg som låter dig ställa in nya teman, typsnitt, ta bort irriterande meddelanden, popups och mer!"
+  },
+  "disabled": {
+    "message": "Du har stängt av SpoPlus"
+  },
+  "header_title": {
+    "message": "SpoPlus Tillägg"
+  },
+  "header_subtitle": {
+    "message": "Ställ in nya teman, typsnitt och så vidare!"
+  },
+  "btn_donate": {
+    "message": "Donera"
+  },
+  "btn_support": {
+    "message": "Få support"
+  },
+  "btn_reqfeature": {
+    "message": "Begär funktion"
+  },
+  "btn_goback": {
+    "message": "Gå Tillbaka"
+  },
+  "menu_main": {
+    "message": "Huvudfunktioner:"
+  },
+  "menu_sec": {
+    "message": "Ytterligare funktioner:"
+  },
+  "menu_palette": {
+    "message": "Färgpalett / typsnitt:"
+  },
+  "n_default": {
+    "message": "Standard"
+  },
+  "mi_1": {
+    "message": "Aktivera Fokusläge"
+  },
+  "mi_2": {
+    "message": "Dölj Knappar i Apphuvudet"
+  },
+  "mi_3": {
+    "message": "Gör Navigeringsfältet Större"
+  },
+  "mi_4": {
+    "message": "Håll Bredden på Sidomenyn Statisk"
+  },
+  "mi_5": {
+    "message": "Gör alla Avatars Rektangulära"
+  },
+  "mi_6": {
+    "message": "Inaktivera \"Nu spelas\"-vyn"
+  },
+  "mi_7": {
+    "message": "Gör Allt Fyrkantigt"
+  },
+  "mi_8": {
+    "message": "Blockera alla videor för att minska datatrafik (experimentellt)"
+  },
+  "mi_9": {
+    "message": "Blockera alla bilder för att minska datatrafik (experimentellt)"
+  },
+  "mi_10": {
+    "message": "Färgpalett / typsnitt:"
+  },
+  "fonts_title": {
+    "message": "Välj typsnitt:"
+  },
+  "themes_title": {
+    "message": "Välj tema:"
+  },
+  "themes_label": {
+    "message": "NYTT"
+  },
+  "themes_msg": {
+    "message": "Nya alternativ v1.1.9"
+  },
+  "theme_1": {
+    "message": "Standard (Mörk Grön)"
+  },
+  "theme_2": {
+    "message": "Ljus Grön"
+  },
+  "theme_3": {
+    "message": "Mörk Lila"
+  },
+  "theme_4": {
+    "message": "Mörk Rosa (kattungar)"
+  },
+  "theme_5": {
+    "message": "Ljus Lila"
+  },
+  "theme_6": {
+    "message": "Mörk Blå"
+  },
+  "theme_7": {
+    "message": "Mörk Röd"
+  },
+  "theme_8": {
+    "message": "Mörk Gul"
+  },
+  "d_title": {
+    "message": "Donationer håller SpoPlus igång."
+  },
+  "d_subtitle": {
+    "message": "Jag lägger ner timmar varje vecka på att fixa buggar, lägga till och förbättra funktioner samt hantera användarfeedback. Ditt stöd är avgörande för fortsatt underhåll."
+  },
+  "d_pp": {
+    "message": "Donera via PayPal"
+  },
+  "d_kofi": {
+    "message": "Stöd mig på Ko-Fi"
+  },
+  "d_card": {
+    "message": "Donera med kredit- eller betalkort"
+  },
+  "d_cred__1": {
+    "message": "Du kan också dela SpoPlus med dina vänner eller lämna en"
+  },
+  "d_cred__2": {
+    "message": "recension"
+  },
+  "d_cred__3": {
+    "message": "Tack så mycket."
+  },
+  "s_title": {
+    "message": "Har du problem med SpoPlus?"
+  },
+  "s_subtitle": {
+    "message": "Här är några felsökningssteg du kan försöka:"
+  },
+  "s_res__1": {
+    "message": "Uppdatera Spotify-sidan."
+  },
+  "s_res__2": {
+    "message": "Inaktivera och aktivera SpoPlus igen."
+  },
+  "s_res__3": {
+    "message": "Inaktivera andra tillägg."
+  },
+  "s_res__4": {
+    "message": "Avinstallera och installera om SpoPlus."
+  },
+  "s_res__5": {
+    "message": "Rensa webbläsarens cache."
+  },
+  "s_emailme": {
+    "message": "Om problemet kvarstår, vänligen mejla mig på"
+  },
+  "s_effic": {
+    "message": "För att hjälpa mig assistera dig mer effektivt, inkludera följande information:"
+  },
+  "s_detail__1": {
+    "message": "Versionen av SpoPlus du använder."
+  },
+  "s_detail__2": {
+    "message": "En skärmbild eller video som visar problemet."
+  },
+  "s_detail__3": {
+    "message": "En detaljerad beskrivning av problemet."
+  },
+  "s_detail__4": {
+    "message": "Din webbläsare och dess version (t.ex. Firefox 86.0)."
+  }
+}

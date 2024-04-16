@@ -1,0 +1,170 @@
+{
+  "extensionName": {
+    "message": "SpoPlus - Editar Tema y Configuraciones de Spotify"
+  },
+  "extensionDescription": {
+    "message": "Extensión de Spotify para el año 2024 que te permite configurar nuevos temas, fuentes, eliminar notificaciones molestas, pop-ups ¡y mucho más!"
+  },
+  "disabled": {
+    "message": "Has desactivado SpoPlus"
+  },
+  "header_title": {
+    "message": "Extensión SpoPlus"
+  },
+  "header_subtitle": {
+    "message": "Configura nuevos temas, fuentes, ¡y más!"
+  },
+  "btn_donate": {
+    "message": "Donar"
+  },
+  "btn_support": {
+    "message": "Obtener soporte"
+  },
+  "btn_reqfeature": {
+    "message": "Solicitar función"
+  },
+  "btn_goback": {
+    "message": "Volver"
+  },
+  "menu_main": {
+    "message": "Características Principales:"
+  },
+  "menu_sec": {
+    "message": "Características Adicionales:"
+  },
+  "menu_palette": {
+    "message": "Paleta de colores / fuente:"
+  },
+  "n_default": {
+    "message": "Predeterminado"
+  },
+  "mi_1": {
+    "message": "Habilitar Modo de Enfoque"
+  },
+  "mi_2": {
+    "message": "Ocultar Botones de la Barra de Herramientas"
+  },
+  "mi_3": {
+    "message": "Agrandar Barra de Navegación"
+  },
+  "mi_4": {
+    "message": "Mantener Ancho del Menú Lateral Estático"
+  },
+  "mi_5": {
+    "message": "Hacer Todos los Avatares Rectangulares"
+  },
+  "mi_6": {
+    "message": "Desactivar \"Vista de Reproducción Actual\""
+  },
+  "mi_7": {
+    "message": "Hacer Todo en Forma Cuadrada"
+  },
+  "mi_8": {
+    "message": "Bloquear todos los videos para reducir el uso de tráfico (experimental)"
+  },
+  "mi_9": {
+    "message": "Bloquear todas las imágenes para reducir el uso de tráfico (experimental)"
+  },
+  "mi_10": {
+    "message": "Paleta de colores / fuente:"
+  },
+  "fonts_title": {
+    "message": "Seleccionar fuente:"
+  },
+  "themes_title": {
+    "message": "Seleccionar tema:"
+  },
+  "themes_label": {
+    "message": "NUEVO"
+  },
+  "themes_msg": {
+    "message": "Nuevas opciones v1.1.9"
+  },
+  "theme_1": {
+    "message": "Predeterminado (Verde Oscuro)"
+  },
+  "theme_2": {
+    "message": "Verde Claro"
+  },
+  "theme_3": {
+    "message": "Morado Oscuro"
+  },
+  "theme_4": {
+    "message": "Rosa Oscuro (gatitos)"
+  },
+  "theme_5": {
+    "message": "Morado Claro"
+  },
+  "theme_6": {
+    "message": "Azul Oscuro"
+  },
+  "theme_7": {
+    "message": "Rojo Oscuro"
+  },
+  "theme_8": {
+    "message": "Amarillo Oscuro"
+  },
+  "d_title": {
+    "message": "Las donaciones mantienen SpoPlus en funcionamiento."
+  },
+  "d_subtitle": {
+    "message": "Paso horas cada semana corrigiendo errores, agregando y mejorando funciones, y atendiendo comentarios de usuarios. Tu apoyo es crucial para el mantenimiento continuo."
+  },
+  "d_pp": {
+    "message": "Donar a través de PayPal"
+  },
+  "d_kofi": {
+    "message": "Apóyame en Ko-Fi"
+  },
+  "d_card": {
+    "message": "Donar con tarjeta de crédito o débito"
+  },
+  "d_cred__1": {
+    "message": "También puedes compartir SpoPlus con tus amigos o dejar una"
+  },
+  "d_cred__2": {
+    "message": "reseña"
+  },
+  "d_cred__3": {
+    "message": "Muchas gracias."
+  },
+  "s_title": {
+    "message": "¿Tienes problemas con SpoPlus?"
+  },
+  "s_subtitle": {
+    "message": "Aquí hay algunos pasos de solución de problemas que puedes intentar:"
+  },
+  "s_res__1": {
+    "message": "Actualiza la página de Spotify."
+  },
+  "s_res__2": {
+    "message": "Desactiva y luego vuelve a activar SpoPlus."
+  },
+  "s_res__3": {
+    "message": "Desactiva cualquier otra extensión."
+  },
+  "s_res__4": {
+    "message": "Desinstala y vuelve a instalar SpoPlus."
+  },
+  "s_res__5": {
+    "message": "Borra la caché del navegador."
+  },
+  "s_emailme": {
+    "message": "Si el problema persiste, por favor envíame un correo electrónico a"
+  },
+  "s_effic": {
+    "message": "Para ayudarme a asistirte de manera más eficiente, incluye esta información:"
+  },
+  "s_detail__1": {
+    "message": "La versión de SpoPlus que estás utilizando."
+  },
+  "s_detail__2": {
+    "message": "Una captura de pantalla o video que muestre el problema."
+  },
+  "s_detail__3": {
+    "message": "Una descripción detallada del problema."
+  },
+  "s_detail__4": {
+    "message": "Tu navegador y su versión (por ejemplo, Firefox 86.0)."
+  }
+}
