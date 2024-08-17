@@ -1,0 +1,81 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "2.0.0",
+  "default_locale": "en",
+  "icons": {
+    "128": "assets/icons/icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "contents/popup.html",
+    "default_icon": {
+      "128": "assets/icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://open.spotify.com/*"
+      ],
+      "js": [
+        "assets/js/content.js"
+      ],
+      "css": [
+        "assets/graphs/main.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "scripts": [
+      "assets/js/background.js"
+    ],
+    "persistent": false
+  },
+  "web_accessible_resources": [
+    "assets/js/init.js",
+    "assets/graphs/index.css",
+    "assets/graphs/main.css",
+    "assets/graphs/bigger_navbar.css",
+    "assets/graphs/focus_mode.css",
+    "assets/graphs/header_btns.css",
+    "assets/graphs/static_aside.css",
+    "assets/graphs/rect_avatars.css",
+    "assets/graphs/block_images.css",
+    "assets/graphs/block_videos.css",
+    "assets/graphs/now_play_disable.css",
+    "assets/graphs/square_shaped.css",
+    "assets/graphs/themes/dark_pink.css",
+    "assets/graphs/themes/light_green.css",
+    "assets/graphs/themes/purple_dark.css",
+    "/assets/graphs/fonts/noto_sans.css",
+    "/assets/graphs/fonts/roboto.css",
+    "/assets/graphs/fonts/poppins.css",
+    "/assets/graphs/fonts/playfair.css",
+    "/assets/graphs/fonts/merriweather.css",
+    "/assets/graphs/fonts/noto_sans.css",
+    "/assets/graphs/fonts/nunito.css",
+    "/assets/graphs/fonts/montserrat.css",
+    "/assets/graphs/fonts/pixelify.css",
+    "/assets/graphs/fonts/gabarito.css",
+    "/assets/graphs/fonts/roboto_condensed.css",
+    "/assets/graphs/fonts/inter.css",
+    "/assets/graphs/img/cup-border.png",
+    "/assets/img/logo.svg",
+    "assets/graphs/themes/light_purple.css",
+    "assets/graphs/themes/dark_red.css",
+    "assets/graphs/themes/dark_yellow.css",
+    "assets/graphs/themes/dark_blue.css",
+    "assets/graphs/themes/amoled.css",
+    "assets/graphs/themes/amoled_night.css"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{bd42a829-70e0-4781-83f3-2264420169b5}"
+    }
+  }
+}

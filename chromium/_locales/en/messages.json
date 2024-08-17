@@ -1,0 +1,170 @@
+{
+  "extensionName": {
+    "message": "SpoPlus - Edit Spotify Theme & Settings"
+  },
+  "extensionDescription": {
+    "message": "2024 Spotify extension that allows you to set up new themes, fonts, remove annoying notifications, popups, and more!"
+  },
+  "disabled": {
+    "message": "You turned off SpoPlus"
+  },
+  "header_title": {
+    "message": "SpoPlus Extension"
+  },
+  "header_subtitle": {
+    "message": "Setup new themes, fonts and so on!"
+  },
+  "btn_donate": {
+    "message": "Donate"
+  },
+  "btn_support": {
+    "message": "Get support"
+  },
+  "btn_reqfeature": {
+    "message": "Request feature"
+  },
+  "btn_goback": {
+    "message": "Go Back"
+  },
+  "menu_main": {
+    "message": "Main Features:"
+  },
+  "menu_sec": {
+    "message": "Additional Features:"
+  },
+  "menu_palette": {
+    "message": "Color palette / font:"
+  },
+  "n_default": {
+    "message": "Default"
+  },
+  "mi_1": {
+    "message": "Enable Focus Mode"
+  },
+  "mi_2": {
+    "message": "Hide Header App Buttons"
+  },
+  "mi_3": {
+    "message": "Make Navbar Bigger"
+  },
+  "mi_4": {
+    "message": "Keep Aside Menu width Static"
+  },
+  "mi_5": {
+    "message": "Make all Avatars Rectangle"
+  },
+  "mi_6": {
+    "message": "Disable \"Now Playing View\""
+  },
+  "mi_7": {
+    "message": "Make Everything Square shaped"
+  },
+  "mi_8": {
+    "message": "Block all videos to reduce traffic usage (experimental)"
+  },
+  "mi_9": {
+    "message": "Block all images to reduce traffic usage (experimental)"
+  },
+  "mi_10": {
+    "message": "Color palette / font:"
+  },
+  "fonts_title": {
+    "message": "Select font:"
+  },
+  "themes_title": {
+    "message": "Select theme:"
+  },
+  "themes_label": {
+    "message": "NEW"
+  },
+  "themes_msg": {
+    "message": "New Options v1.1.9"
+  },
+  "theme_1": {
+    "message": "Default (Dark Green)"
+  },
+  "theme_2": {
+    "message": "Light Green"
+  },
+  "theme_3": {
+    "message": "Dark Purple"
+  },
+  "theme_4": {
+    "message": "Dark Pink (kittens)"
+  },
+  "theme_5": {
+    "message": "Light Purple"
+  },
+  "theme_6": {
+    "message": "Dark Blue"
+  },
+  "theme_7": {
+    "message": "Dark Red"
+  },
+  "theme_8": {
+    "message": "Dark Yellow"
+  },
+  "d_title": {
+    "message": "Donations keep SpoPlus up and running."
+  },
+  "d_subtitle": {
+    "message": "I spend hours every week fixing bugs, adding and improving features, and addressing user feedback. Your support is crucial to continued maintenance."
+  },
+  "d_pp": {
+    "message": "Donate via PayPal"
+  },
+  "d_kofi": {
+    "message": "Support me on Ko-Fi"
+  },
+  "d_card": {
+    "message": "Donate via credit or debit card"
+  },
+  "d_cred__1": {
+    "message": "You can also share SpoPlus with your friends or leave a"
+  },
+  "d_cred__2": {
+    "message": "review"
+  },
+  "d_cred__3": {
+    "message": "Thanks a lot."
+  },
+  "s_title": {
+    "message": "Having troubles with SpoPlus?"
+  },
+  "s_subtitle": {
+    "message": "Here are some troubleshooting steps you can try:"
+  },
+  "s_res__1": {
+    "message": "Refresh the Spotify page."
+  },
+  "s_res__2": {
+    "message": "Disable and then enable again SpoPlus."
+  },
+  "s_res__3": {
+    "message": "Disable any other extensions."
+  },
+  "s_res__4": {
+    "message": "Uninstall and re-install SpoPlus."
+  },
+  "s_res__5": {
+    "message": "Clear browser cache."
+  },
+  "s_emailme": {
+    "message": "If the problem still here, please email me at"
+  },
+  "s_effic": {
+    "message": "To help me assist you more efficiently, please include this information:"
+  },
+  "s_detail__1": {
+    "message": "The version of SpoPlus you are using."
+  },
+  "s_detail__2": {
+    "message": "A screenshot or video demonstrating the problem."
+  },
+  "s_detail__3": {
+    "message": "A detailed description of the issue."
+  },
+  "s_detail__4": {
+    "message": "Your browser and its version (e.g., Firefox 86.0)."
+  }
+}

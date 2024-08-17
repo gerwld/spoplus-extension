@@ -1,0 +1,170 @@
+{
+  "extensionName": {
+    "message": "SpoPlus - Edytuj motyw i ustawienia Spotify"
+  },
+  "extensionDescription": {
+    "message": "2024 Rozszerzenie Spotify, które pozwala na ustawienie nowych motywów, czcionek, usunięcie irytujących powiadomień, wyskakujących okienek i wiele więcej!"
+  },
+  "disabled": {
+    "message": "Wyłączyłeś SpoPlus."
+  },
+  "header_title": {
+    "message": "Rozszerzenie SpoPlus"
+  },
+  "header_subtitle": {
+    "message": "Ustaw nowe motywy, czcionki i wiele więcej!"
+  },
+  "btn_donate": {
+    "message": "Wesprzyj"
+  },
+  "btn_support": {
+    "message": "Uzyskaj pomoc"
+  },
+  "btn_reqfeature": {
+    "message": "Request funkcję"
+  },
+  "btn_goback": {
+    "message": "Wróć"
+  },
+  "menu_main": {
+    "message": "Główne funkcje:"
+  },
+  "menu_sec": {
+    "message": "Dodatkowe funkcje:"
+  },
+  "menu_palette": {
+    "message": "Paleta kolorów / czcionka:"
+  },
+  "n_default": {
+    "message": "Domyślne"
+  },
+  "mi_1": {
+    "message": "Włącz tryb Focus Mode"
+  },
+  "mi_2": {
+    "message": "Ukryj przyciski aplikacji w nagłówku (premium, apki)"
+  },
+  "mi_3": {
+    "message": "Powiększ pasek nawigacyjny"
+  },
+  "mi_4": {
+    "message": "Utrzymuj szerokość menu bocznego stałą"
+  },
+  "mi_5": {
+    "message": "Zrób wszystkie awatary prostokątne"
+  },
+  "mi_6": {
+    "message": "Wyłącz popup \"Teraz odtwarzane\""
+  },
+  "mi_7": {
+    "message": "Zrób wszystko w kształcie kwadratu"
+  },
+  "mi_8": {
+    "message": "Zablokuj wszystkie wideo w celu ogr. przepustowości (eksperymentalne)"
+  },
+  "mi_9": {
+    "message": "Zablokuj wszystkie obrazy w celu ogr. przepustowości (eksperymentalne)"
+  },
+  "mi_10": {
+    "message": "Paleta kolorów / czcionka:"
+  },
+  "fonts_title": {
+    "message": "Wybierz czcionkę:"
+  },
+  "themes_title": {
+    "message": "Wybierz motyw:"
+  },
+  "themes_label": {
+    "message": "NOWE"
+  },
+  "themes_msg": {
+    "message": "Nowe opcje v1.1.9"
+  },
+  "theme_1": {
+    "message": "Domyślny (Ciemnozielony)"
+  },
+  "theme_2": {
+    "message": "Jasnozielony"
+  },
+  "theme_3": {
+    "message": "Ciemnopurpurowy"
+  },
+  "theme_4": {
+    "message": "Ciemnoróżowy (kotki)"
+  },
+  "theme_5": {
+    "message": "Jasnopurpurowy"
+  },
+  "theme_6": {
+    "message": "Ciemnoniebieski"
+  },
+  "theme_7": {
+    "message": "Ciemnoczerwony"
+  },
+  "theme_8": {
+    "message": "Ciemnożółty"
+  },
+  "d_title": {
+    "message": "Darowizny utrzymują SpoPlus przy życiu."
+  },
+  "d_subtitle": {
+    "message": "Co tydzień poświęcam godziny na naprawę błędów, dodawanie i ulepszanie funkcji oraz poprawę doświadczenia użytkownika. Wsparcie jest kluczowe dla ciągłego utrzymania!"
+  },
+  "d_pp": {
+    "message": "Wesprzyj na PayPal"
+  },
+  "d_kofi": {
+    "message": "Wesprzyj na Ko-Fi"
+  },
+  "d_card": {
+    "message": "Wesprzyj poprzez kartę debetową"
+  },
+  "d_cred__1": {
+    "message": "Możesz także podzielić się o SpoPlus z przyjaciółmi lub napisać"
+  },
+  "d_cred__2": {
+    "message": "recenzję"
+  },
+  "d_cred__3": {
+    "message": "Dzięki."
+  },
+  "s_title": {
+    "message": "Masz problemy z SpoPlus?"
+  },
+  "s_subtitle": {
+    "message": "Oto kilka kroków do rozwiązania problemów, które możesz spróbować:"
+  },
+  "s_res__1": {
+    "message": "Odśwież stronę Spotify."
+  },
+  "s_res__2": {
+    "message": "Wyłącz, a następnie ponownie włącz SpoPlus."
+  },
+  "s_res__3": {
+    "message": "Wyłącz inne rozszerzenia."
+  },
+  "s_res__4": {
+    "message": "Odinstaluj i ponownie zainstaluj SpoPlus."
+  },
+  "s_res__5": {
+    "message": "Wyczyść pamięć podręczną (cache i cookies) przeglądarki."
+  },
+  "s_emailme": {
+    "message": "Jeśli problem nadal występuje, napisz na"
+  },
+  "s_effic": {
+    "message": "Aby pomóc w udzieleniu bardziej efektywnego wsparcia, dołącz te informacje:"
+  },
+  "s_detail__1": {
+    "message": "Wersje SpoPlus, którą używasz."
+  },
+  "s_detail__2": {
+    "message": "Zrzut ekranu lub nagranie demonstrujące problem."
+  },
+  "s_detail__3": {
+    "message": "Szczegółowy opis problemu."
+  },
+  "s_detail__4": {
+    "message": "Twoja przeglądarka i jej wersja (np. Firefox 86.0)."
+  }
+}
