@@ -166,5 +166,32 @@
   },
   "s_detail__4": {
     "message": "Your browser and its version (e.g., Firefox 86.0)."
+  },
+  "theme_9": {
+    "message": "Amoled (High Contrast)"
+  },
+  "theme_11": {
+    "message": "Light Pink"
+  },
+  "theme_15": {
+    "message": "Light Pink Dimmed"
+  },
+  "theme_12": {
+    "message": "Kimbie Dark (coffee)"
+  },
+  "theme_14": {
+    "message": "Comfy Red"
+  },
+  "mi_11": {
+    "message": "Enable Low-end PC optimizations (beta)"
+  },
+  "themes_msg_119": {
+    "message": "----------- New Options v1.1.9 -----------"
+  },
+  "themes_msg_120": {
+    "message": "----------- New Options v1.2.0 -----------"
+  },
+  "themes_msg_210": {
+    "message": "----------- New Options v2.1.0 -----------"
   }
 }

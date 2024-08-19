@@ -166,5 +166,32 @@
   },
   "s_detail__4": {
     "message": "Tu navegador y su versión (por ejemplo, Firefox 86.0)."
+  },
+  "theme_9": {
+    "message": "Amoled (Alto Contraste)"
+  },
+  "theme_11": {
+    "message": "Rosa Claro"
+  },
+  "theme_15": {
+    "message": "Rosa Claro Atenuado"
+  },
+  "theme_12": {
+    "message": "Kimbie Oscuro (café)"
+  },
+  "theme_14": {
+    "message": "Rojo Cómodo"
+  },
+  "mi_11": {
+    "message": "Optimizaciones para low-end PC (beta)"
+  },
+  "themes_msg_119": {
+    "message": "----------- Nuevas Opciones v1.1.9 -----------"
+  },
+  "themes_msg_120": {
+    "message": "----------- Nuevas Opciones v1.2.0 -----------"
+  },
+  "themes_msg_210": {
+    "message": "----------- Nuevas Opciones v2.1.0 -----------"
   }
 }

@@ -166,5 +166,32 @@
   },
   "s_detail__4": {
     "message": "Ihr Browser und seine Version (z.B. Firefox 86.0)."
+  },
+  "theme_9": {
+    "message": "Amoled (Hoher Kontrast)"
+  },
+  "theme_11": {
+    "message": "Hellrosa"
+  },
+  "theme_15": {
+    "message": "Gedimmtes Hellrosa"
+  },
+  "theme_12": {
+    "message": "Kimbie Dunkel (Kaffee)"
+  },
+  "theme_14": {
+    "message": "Comfy red"
+  },
+  "mi_11": {
+    "message": "Optimierungen für low-end PCs (beta)"
+  },
+  "themes_msg_119": {
+    "message": "----------- Neue Optionen v1.1.9 -----------"
+  },
+  "themes_msg_120": {
+    "message": "----------- Neue Optionen v1.2.0 -----------"
+  },
+  "themes_msg_210": {
+    "message": "----------- Neue Optionen v2.1.0 -----------"
   }
 }

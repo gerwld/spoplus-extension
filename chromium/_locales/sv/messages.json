@@ -166,5 +166,32 @@
   },
   "s_detail__4": {
     "message": "Din webbläsare och dess version (t.ex. Firefox 86.0)."
+  },
+  "theme_9": {
+    "message": "Amoled (Hög Kontrast)"
+  },
+  "theme_11": {
+    "message": "Ljusrosa"
+  },
+  "theme_15": {
+    "message": "Ljusrosa Mörkad"
+  },
+  "theme_12": {
+    "message": "Kimbie Mörk (kaffe)"
+  },
+  "theme_14": {
+    "message": "Bekväm Röd"
+  },
+  "mi_11": {
+    "message": "Optimeringar för low-end PC (beta)"
+  },
+  "themes_msg_119": {
+    "message": "----------- Nya Alternativ v1.1.9 -----------"
+  },
+  "themes_msg_120": {
+    "message": "----------- Nya Alternativ v1.2.0 -----------"
+  },
+  "themes_msg_210": {
+    "message": "----------- Nya Alternativ v2.1.0 -----------"
   }
 }
