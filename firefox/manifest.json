@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "2.1.0",
+  "version": "2.1.0.2",
   "default_locale": "en",
   "icons": {
     "128": "assets/icons/icon128.png"
@@ -79,7 +79,8 @@
     "assets/graphs/themes/red.css",
     "assets/graphs/themes/solarized_dark.css",
     "assets/graphs/themes/quiet_light.css",
-    "assets/graphs/themes/dottie.css"
+    "assets/graphs/themes/dottie.css",
+    "assets/graphs/heart_icons.css"
   ],
   "browser_specific_settings": {
     "gecko": {

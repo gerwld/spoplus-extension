@@ -1,6 +1,6 @@
 {
   "name": "spoplus-extension",
-  "version": "2.0.0",
+  "version": "2.1.0.2",
   "description": "",
   "main": "/assets/js/init.js",
   "type": "module",
