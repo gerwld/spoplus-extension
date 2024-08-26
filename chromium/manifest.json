@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "2.1.0.2",
+  "version": "2.2.0",
   "default_locale": "en",
   "icons": {
     "128": "assets/icons/icon128.png"
@@ -59,7 +59,13 @@
         "assets/graphs/themes/solarized_dark.css",
         "assets/graphs/themes/quiet_light.css",
         "assets/graphs/themes/dottie.css",
-        "assets/graphs/heart_icons.css"
+        "assets/graphs/heart_icons.css",
+        "assets/img/placeholders/ac-row-placeholder.png",
+        "assets/img/placeholders/ylx-artist-row-placeholder.png",
+        "assets/img/placeholders/tracklist-placeholder-compact.png",
+        "assets/img/placeholders/ylx-compact-row-placeholder.png",
+        "assets/img/placeholders/tracklist-placeholder.png",
+        "assets/img/placeholders/ylx-row-placeholder.png"
       ],
       "matches": [
         "<all_urls>"
