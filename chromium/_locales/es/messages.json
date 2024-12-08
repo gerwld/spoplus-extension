@@ -193,5 +193,8 @@
   },
   "themes_msg_210": {
     "message": "----------- Nuevas Opciones v2.1.0 -----------"
-  }
+  },
+  "mi_12": {
+  "message": "Recuperar el botón clásico de corazón (beta)"
+}
 }

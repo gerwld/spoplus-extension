@@ -12,7 +12,7 @@
     "message": "Rozszerzenie SpoPlus"
   },
   "header_subtitle": {
-    "message": "Ustaw nowe motywy, czcionki i wiele więcej!"
+    "message": "Ustaw nowe motywy, czcionki i wiele więcej."
   },
   "btn_donate": {
     "message": "Wesprzyj"
@@ -193,5 +193,8 @@
   },
   "themes_msg_210": {
     "message": "----------- Nowe opcje v2.1.0 -----------"
-  }
+  },
+  "mi_12": {
+    "message": "Przywróć klasyczny przycisk serca (beta)"
+}
 }

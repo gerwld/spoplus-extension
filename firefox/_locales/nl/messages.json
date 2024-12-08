@@ -1,0 +1,200 @@
+{
+  "extensionName": {
+    "message": "SpoPlus - Pas Spotify Thema & Instellingen Aan"
+  },
+  "extensionDescription": {
+    "message": "2024 Spotify-extensie waarmee je nieuwe thema's, lettertypen kunt instellen, vervelende meldingen, pop-ups en meer kunt verwijderen!"
+  },
+  "disabled": {
+    "message": "Je hebt SpoPlus uitgeschakeld"
+  },
+  "header_title": {
+    "message": "SpoPlus Extensie"
+  },
+  "header_subtitle": {
+    "message": "Stel nieuwe thema's, lettertypen en meer in."
+  },
+  "btn_donate": {
+    "message": "Doneren"
+  },
+  "btn_support": {
+    "message": "Krijg ondersteuning"
+  },
+  "btn_reqfeature": {
+    "message": "Vraag functie aan"
+  },
+  "btn_goback": {
+    "message": "Ga Terug"
+  },
+  "menu_main": {
+    "message": "Belangrijkste Functies:"
+  },
+  "menu_sec": {
+    "message": "Aanvullende Functies:"
+  },
+  "menu_palette": {
+    "message": "Kleurenpalet / lettertype:"
+  },
+  "n_default": {
+    "message": "Standaard"
+  },
+  "mi_1": {
+    "message": "Focusmodus Inschakelen"
+  },
+  "mi_2": {
+    "message": "Verberg Header App-knop"
+  },
+  "mi_3": {
+    "message": "Maak Navigatiebalk Groter"
+  },
+  "mi_4": {
+    "message": "Houd de breedte van het Zijmenu statisch"
+  },
+  "mi_5": {
+    "message": "Maak alle Avatars Rechthoekig"
+  },
+  "mi_6": {
+    "message": "Schakel \"Nu Spelen-weergave\" uit"
+  },
+  "mi_7": {
+    "message": "Maak Alles Vierkant"
+  },
+  "mi_8": {
+    "message": "Blokkeer alle video's om dataverkeer te verminderen (experimenteel)"
+  },
+  "mi_9": {
+    "message": "Blokkeer alle afbeeldingen om dataverkeer te verminderen (experimenteel)"
+  },
+  "mi_10": {
+    "message": "Kleurenpalet / lettertype:"
+  },
+  "fonts_title": {
+    "message": "Selecteer lettertype:"
+  },
+  "themes_title": {
+    "message": "Selecteer thema:"
+  },
+  "themes_label": {
+    "message": "NIEUW"
+  },
+  "themes_msg": {
+    "message": "Nieuwe Opties v1.1.9"
+  },
+  "theme_1": {
+    "message": "Standaard (Donkergroen)"
+  },
+  "theme_2": {
+    "message": "Lichtgroen"
+  },
+  "theme_3": {
+    "message": "Donkerpaars"
+  },
+  "theme_4": {
+    "message": "Donkerroze (kittens)"
+  },
+  "theme_5": {
+    "message": "Lichtpaars"
+  },
+  "theme_6": {
+    "message": "Donkerblauw"
+  },
+  "theme_7": {
+    "message": "Donkerrood"
+  },
+  "theme_8": {
+    "message": "Donkergeel"
+  },
+  "d_title": {
+    "message": "Donaties houden SpoPlus draaiende."
+  },
+  "d_subtitle": {
+    "message": "Ik besteed wekelijks uren aan het oplossen van bugs, het toevoegen en verbeteren van functies, en het verwerken van gebruikersfeedback. Jouw steun is cruciaal voor het onderhoud."
+  },
+  "d_pp": {
+    "message": "Doneer via PayPal"
+  },
+  "d_kofi": {
+    "message": "Steun me op Ko-Fi"
+  },
+  "d_card": {
+    "message": "Doneer via creditcard of betaalkaart"
+  },
+  "d_cred__1": {
+    "message": "Je kunt SpoPlus ook delen met je vrienden of een"
+  },
+  "d_cred__2": {
+    "message": "recensie achterlaten"
+  },
+  "d_cred__3": {
+    "message": "Heel erg bedankt."
+  },
+  "s_title": {
+    "message": "Problemen met SpoPlus?"
+  },
+  "s_subtitle": {
+    "message": "Hier zijn enkele stappen voor probleemoplossing die je kunt proberen:"
+  },
+  "s_res__1": {
+    "message": "Ververs de Spotify-pagina."
+  },
+  "s_res__2": {
+    "message": "Schakel SpoPlus uit en weer in."
+  },
+  "s_res__3": {
+    "message": "Schakel andere extensies uit."
+  },
+  "s_res__4": {
+    "message": "Verwijder en installeer SpoPlus opnieuw."
+  },
+  "s_res__5": {
+    "message": "Wis de browsercache."
+  },
+  "s_emailme": {
+    "message": "Als het probleem blijft bestaan, stuur me een e-mail op"
+  },
+  "s_effic": {
+    "message": "Om me efficiënter te helpen, voeg deze informatie toe:"
+  },
+  "s_detail__1": {
+    "message": "De versie van SpoPlus die je gebruikt."
+  },
+  "s_detail__2": {
+    "message": "Een screenshot of video die het probleem toont."
+  },
+  "s_detail__3": {
+    "message": "Een gedetailleerde beschrijving van het probleem."
+  },
+  "s_detail__4": {
+    "message": "Je browser en versie (bijv. Firefox 86.0)."
+  },
+  "theme_9": {
+    "message": "Amoled (Hoog Contrast)"
+  },
+  "theme_11": {
+    "message": "Lichtroze"
+  },
+  "theme_15": {
+    "message": "Lichtroze Gedimd"
+  },
+  "theme_12": {
+    "message": "Kimbie Donker (koffie)"
+  },
+  "theme_14": {
+    "message": "Comfortabel Rood"
+  },
+  "mi_11": {
+    "message": "Schakel optimalisaties voor Low-end PC in (beta)"
+  },
+  "themes_msg_119": {
+    "message": "----------- Nieuwe Opties v1.1.9 -----------"
+  },
+  "themes_msg_120": {
+    "message": "----------- Nieuwe Opties v1.2.0 -----------"
+  },
+  "themes_msg_210": {
+    "message": "----------- Nieuwe Opties v2.1.0 -----------"
+  },
+  "mi_12": {
+    "message": "Breng klassieke hartknop terug (beta)"
+  }
+}

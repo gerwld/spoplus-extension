@@ -1,0 +1,200 @@
+{
+  "extensionName": {
+    "message": "SpoPlus - 编辑 Spotify 主题和设置"
+  },
+  "extensionDescription": {
+    "message": "2024 Spotify 扩展，允许你设置新主题、字体，移除烦人的通知、弹窗等！"
+  },
+  "disabled": {
+    "message": "你关闭了 SpoPlus"
+  },
+  "header_title": {
+    "message": "SpoPlus 扩展"
+  },
+  "header_subtitle": {
+    "message": "设置新主题、字体等等！"
+  },
+  "btn_donate": {
+    "message": "捐赠"
+  },
+  "btn_support": {
+    "message": "获取支持"
+  },
+  "btn_reqfeature": {
+    "message": "请求功能"
+  },
+  "btn_goback": {
+    "message": "返回"
+  },
+  "menu_main": {
+    "message": "主要功能："
+  },
+  "menu_sec": {
+    "message": "附加功能："
+  },
+  "menu_palette": {
+    "message": "颜色调色板 / 字体："
+  },
+  "n_default": {
+    "message": "默认"
+  },
+  "mi_1": {
+    "message": "启用专注模式"
+  },
+  "mi_2": {
+    "message": "隐藏顶部应用按钮"
+  },
+  "mi_3": {
+    "message": "增大导航栏"
+  },
+  "mi_4": {
+    "message": "保持旁边菜单宽度固定"
+  },
+  "mi_5": {
+    "message": "使所有头像为矩形"
+  },
+  "mi_6": {
+    "message": "禁用“当前播放视图”"
+  },
+  "mi_7": {
+    "message": "使一切为方形"
+  },
+  "mi_8": {
+    "message": "屏蔽所有视频以减少流量使用（实验性）"
+  },
+  "mi_9": {
+    "message": "屏蔽所有图片以减少流量使用（实验性）"
+  },
+  "mi_10": {
+    "message": "颜色调色板 / 字体："
+  },
+  "fonts_title": {
+    "message": "选择字体："
+  },
+  "themes_title": {
+    "message": "选择主题："
+  },
+  "themes_label": {
+    "message": "新"
+  },
+  "themes_msg": {
+    "message": "新选项 v1.1.9"
+  },
+  "theme_1": {
+    "message": "默认（深绿）"
+  },
+  "theme_2": {
+    "message": "浅绿"
+  },
+  "theme_3": {
+    "message": "深紫"
+  },
+  "theme_4": {
+    "message": "深粉（小猫）"
+  },
+  "theme_5": {
+    "message": "浅紫"
+  },
+  "theme_6": {
+    "message": "深蓝"
+  },
+  "theme_7": {
+    "message": "深红"
+  },
+  "theme_8": {
+    "message": "深黄"
+  },
+  "d_title": {
+    "message": "捐赠让 SpoPlus 保持运行"
+  },
+  "d_subtitle": {
+    "message": "我每周花费数小时修复 bug、添加和改进功能，并回应用户反馈。你的支持对持续维护至关重要。"
+  },
+  "d_pp": {
+    "message": "通过 PayPal 捐赠"
+  },
+  "d_kofi": {
+    "message": "在 Ko-Fi 支持我"
+  },
+  "d_card": {
+    "message": "通过信用卡或借记卡捐赠"
+  },
+  "d_cred__1": {
+    "message": "你也可以与朋友分享 SpoPlus 或留下"
+  },
+  "d_cred__2": {
+    "message": "评价"
+  },
+  "d_cred__3": {
+    "message": "非常感谢。"
+  },
+  "s_title": {
+    "message": "遇到 SpoPlus 问题？"
+  },
+  "s_subtitle": {
+    "message": "这里有一些你可以尝试的故障排除步骤："
+  },
+  "s_res__1": {
+    "message": "刷新 Spotify 页面。"
+  },
+  "s_res__2": {
+    "message": "禁用然后重新启用 SpoPlus。"
+  },
+  "s_res__3": {
+    "message": "禁用任何其他扩展。"
+  },
+  "s_res__4": {
+    "message": "卸载并重新安装 SpoPlus。"
+  },
+  "s_res__5": {
+    "message": "清除浏览器缓存。"
+  },
+  "s_emailme": {
+    "message": "如果问题仍然存在，请通过电子邮件联系我，邮箱地址是"
+  },
+  "s_effic": {
+    "message": "为了帮助我更有效地协助你，请提供以下信息："
+  },
+  "s_detail__1": {
+    "message": "你使用的 SpoPlus 版本。"
+  },
+  "s_detail__2": {
+    "message": "展示问题的截图或视频。"
+  },
+  "s_detail__3": {
+    "message": "问题的详细描述。"
+  },
+  "s_detail__4": {
+    "message": "你的浏览器及其版本（例如，Firefox 86.0）。"
+  },
+  "theme_9": {
+    "message": "AMOLED（高对比度）"
+  },
+  "theme_11": {
+    "message": "浅粉"
+  },
+  "theme_15": {
+    "message": "浅粉暗色"
+  },
+  "theme_12": {
+    "message": "Kimbie Dark（咖啡）"
+  },
+  "theme_14": {
+    "message": "舒适红"
+  },
+  "mi_11": {
+    "message": "启用低端 PC 优化（测试版）"
+  },
+  "themes_msg_119": {
+    "message": "----------- 新选项 v1.1.9 -----------"
+  },
+  "themes_msg_120": {
+    "message": "----------- 新选项 v1.2.0 -----------"
+  },
+  "themes_msg_210": {
+    "message": "----------- 新选项 v2.1.0 -----------"
+  },
+  "mi_12": {
+  "message": "恢复经典心形按钮（测试版）"
+}
+}

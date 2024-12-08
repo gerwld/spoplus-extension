@@ -1,0 +1,200 @@
+{
+  "extensionName": {
+    "message": "SpoPlus - Edite o Tema e Configurações do Spotify"
+  },
+  "extensionDescription": {
+    "message": "Extensão Spotify 2024 que permite configurar novos temas, fontes, remover notificações irritantes, pop-ups e muito mais!"
+  },
+  "disabled": {
+    "message": "Você desativou o SpoPlus"
+  },
+  "header_title": {
+    "message": "Extensão SpoPlus"
+  },
+  "header_subtitle": {
+    "message": "Configure novos temas, fontes e muito mais."
+  },
+  "btn_donate": {
+    "message": "Doar"
+  },
+  "btn_support": {
+    "message": "Obter suporte"
+  },
+  "btn_reqfeature": {
+    "message": "Solicitar recurso"
+  },
+  "btn_goback": {
+    "message": "Voltar"
+  },
+  "menu_main": {
+    "message": "Funcionalidades principais:"
+  },
+  "menu_sec": {
+    "message": "Funcionalidades adicionais:"
+  },
+  "menu_palette": {
+    "message": "Paleta de cores / fonte:"
+  },
+  "n_default": {
+    "message": "Padrão"
+  },
+  "mi_1": {
+    "message": "Ativar Modo Foco"
+  },
+  "mi_2": {
+    "message": "Ocultar Botão do Cabeçalho do Aplicativo"
+  },
+  "mi_3": {
+    "message": "Aumentar a Barra de Navegação"
+  },
+  "mi_4": {
+    "message": "Manter a largura do Menu Lateral Estática"
+  },
+  "mi_5": {
+    "message": "Tornar todos os Avatares Retangulares"
+  },
+  "mi_6": {
+    "message": "Desativar \"Visualização de Agora Tocando\""
+  },
+  "mi_7": {
+    "message": "Tornar Tudo em Forma Quadrada"
+  },
+  "mi_8": {
+    "message": "Bloquear todos os vídeos para reduzir o uso de tráfego (experimental)"
+  },
+  "mi_9": {
+    "message": "Bloquear todas as imagens para reduzir o uso de tráfego (experimental)"
+  },
+  "mi_10": {
+    "message": "Paleta de cores / fonte:"
+  },
+  "fonts_title": {
+    "message": "Selecione a fonte:"
+  },
+  "themes_title": {
+    "message": "Selecione o tema:"
+  },
+  "themes_label": {
+    "message": "NOVO"
+  },
+  "themes_msg": {
+    "message": "Novas Opções v1.1.9"
+  },
+  "theme_1": {
+    "message": "Padrão (Verde Escuro)"
+  },
+  "theme_2": {
+    "message": "Verde Claro"
+  },
+  "theme_3": {
+    "message": "Roxo Escuro"
+  },
+  "theme_4": {
+    "message": "Rosa Escuro (gatinhos)"
+  },
+  "theme_5": {
+    "message": "Roxo Claro"
+  },
+  "theme_6": {
+    "message": "Azul Escuro"
+  },
+  "theme_7": {
+    "message": "Vermelho Escuro"
+  },
+  "theme_8": {
+    "message": "Amarelo Escuro"
+  },
+  "d_title": {
+    "message": "Doações mantêm o SpoPlus em funcionamento."
+  },
+  "d_subtitle": {
+    "message": "Eu passo horas toda semana corrigindo bugs, adicionando e melhorando funcionalidades, e respondendo ao feedback dos usuários. Seu apoio é crucial para a manutenção contínua."
+  },
+  "d_pp": {
+    "message": "Doar via PayPal"
+  },
+  "d_kofi": {
+    "message": "Apoie-me no Ko-Fi"
+  },
+  "d_card": {
+    "message": "Doar via cartão de crédito ou débito"
+  },
+  "d_cred__1": {
+    "message": "Você também pode compartilhar o SpoPlus com seus amigos ou deixar uma"
+  },
+  "d_cred__2": {
+    "message": "avaliação"
+  },
+  "d_cred__3": {
+    "message": "Muito obrigado."
+  },
+  "s_title": {
+    "message": "Está tendo problemas com o SpoPlus?"
+  },
+  "s_subtitle": {
+    "message": "Aqui estão algumas etapas de solução de problemas que você pode tentar:"
+  },
+  "s_res__1": {
+    "message": "Atualize a página do Spotify."
+  },
+  "s_res__2": {
+    "message": "Desative e ative novamente o SpoPlus."
+  },
+  "s_res__3": {
+    "message": "Desative outras extensões."
+  },
+  "s_res__4": {
+    "message": "Desinstale e reinstale o SpoPlus."
+  },
+  "s_res__5": {
+    "message": "Limpe o cache do navegador."
+  },
+  "s_emailme": {
+    "message": "Se o problema persistir, envie-me um e-mail em"
+  },
+  "s_effic": {
+    "message": "Para me ajudar a ajudá-lo de forma mais eficiente, inclua estas informações:"
+  },
+  "s_detail__1": {
+    "message": "A versão do SpoPlus que você está usando."
+  },
+  "s_detail__2": {
+    "message": "Uma captura de tela ou vídeo demonstrando o problema."
+  },
+  "s_detail__3": {
+    "message": "Uma descrição detalhada do problema."
+  },
+  "s_detail__4": {
+    "message": "Seu navegador e sua versão (por exemplo, Firefox 86.0)."
+  },
+  "theme_9": {
+    "message": "Amoled (Alto Contraste)"
+  },
+  "theme_11": {
+    "message": "Rosa Claro"
+  },
+  "theme_15": {
+    "message": "Rosa Claro Escurecido"
+  },
+  "theme_12": {
+    "message": "Kimbie Dark (café)"
+  },
+  "theme_14": {
+    "message": "Vermelho Confortável"
+  },
+  "mi_11": {
+    "message": "Ativar otimizações para PCs de baixo desempenho (beta)"
+  },
+  "themes_msg_119": {
+    "message": "----------- Novas Opções v1.1.9 -----------"
+  },
+  "themes_msg_120": {
+    "message": "----------- Novas Opções v1.2.0 -----------"
+  },
+  "themes_msg_210": {
+    "message": "----------- Novas Opções v2.1.0 -----------"
+  },
+  "mi_12": {
+    "message": "Trazer de volta o botão clássico de coração (beta)"
+  }
+}

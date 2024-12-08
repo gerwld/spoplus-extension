@@ -1,0 +1,200 @@
+{
+  "extensionName": {
+    "message": "SpoPlus - Spotifyのテーマと設定を編集"
+  },
+  "extensionDescription": {
+    "message": "2024 Spotify拡張機能で、新しいテーマ、フォントを設定したり、煩わしい通知やポップアップを削除したり、さらに多くのことが可能です！"
+  },
+  "disabled": {
+    "message": "SpoPlusをオフにしました"
+  },
+  "header_title": {
+    "message": "SpoPlus拡張機能"
+  },
+  "header_subtitle": {
+    "message": "新しいテーマやフォント、さらに多くの設定を行えます。"
+  },
+  "btn_donate": {
+    "message": "寄付する"
+  },
+  "btn_support": {
+    "message": "サポートを受ける"
+  },
+  "btn_reqfeature": {
+    "message": "機能をリクエスト"
+  },
+  "btn_goback": {
+    "message": "戻る"
+  },
+  "menu_main": {
+    "message": "主な機能："
+  },
+  "menu_sec": {
+    "message": "追加機能："
+  },
+  "menu_palette": {
+    "message": "カラーパレット / フォント："
+  },
+  "n_default": {
+    "message": "デフォルト"
+  },
+  "mi_1": {
+    "message": "フォーカスモードを有効にする"
+  },
+  "mi_2": {
+    "message": "ヘッダーアプリボタンを非表示"
+  },
+  "mi_3": {
+    "message": "ナビゲーションバーを拡大"
+  },
+  "mi_4": {
+    "message": "サイドメニューの幅を固定"
+  },
+  "mi_5": {
+    "message": "すべてのアバターを長方形にする"
+  },
+  "mi_6": {
+    "message": "「再生中ビュー」を無効化"
+  },
+  "mi_7": {
+    "message": "すべてを四角形にする"
+  },
+  "mi_8": {
+    "message": "すべての動画をブロックして通信量を削減（実験的）"
+  },
+  "mi_9": {
+    "message": "すべての画像をブロックして通信量を削減（実験的）"
+  },
+  "mi_10": {
+    "message": "カラーパレット / フォント："
+  },
+  "fonts_title": {
+    "message": "フォントを選択："
+  },
+  "themes_title": {
+    "message": "テーマを選択："
+  },
+  "themes_label": {
+    "message": "NEW"
+  },
+  "themes_msg": {
+    "message": "新しいオプション v1.1.9"
+  },
+  "theme_1": {
+    "message": "デフォルト（ダークグリーン）"
+  },
+  "theme_2": {
+    "message": "ライトグリーン"
+  },
+  "theme_3": {
+    "message": "ダークパープル"
+  },
+  "theme_4": {
+    "message": "ダークピンク（子猫）"
+  },
+  "theme_5": {
+    "message": "ライトパープル"
+  },
+  "theme_6": {
+    "message": "ダークブルー"
+  },
+  "theme_7": {
+    "message": "ダークレッド"
+  },
+  "theme_8": {
+    "message": "ダークイエロー"
+  },
+  "d_title": {
+    "message": "寄付によりSpoPlusは維持されています。"
+  },
+  "d_subtitle": {
+    "message": "バグ修正、新機能の追加・改善、ユーザーからのフィードバックへの対応に毎週数時間を費やしています。維持のためにサポートが不可欠です。"
+  },
+  "d_pp": {
+    "message": "PayPalで寄付"
+  },
+  "d_kofi": {
+    "message": "Ko-Fiでサポート"
+  },
+  "d_card": {
+    "message": "クレジットカードまたはデビットカードで寄付"
+  },
+  "d_cred__1": {
+    "message": "また、SpoPlusを友達と共有したり"
+  },
+  "d_cred__2": {
+    "message": "レビュー"
+  },
+  "d_cred__3": {
+    "message": "を残すこともできます。ありがとう！"
+  },
+  "s_title": {
+    "message": "SpoPlusに問題がありますか？"
+  },
+  "s_subtitle": {
+    "message": "以下のトラブルシューティング手順をお試しください："
+  },
+  "s_res__1": {
+    "message": "Spotifyのページをリフレッシュしてください。"
+  },
+  "s_res__2": {
+    "message": "SpoPlusを無効化してから再度有効化してください。"
+  },
+  "s_res__3": {
+    "message": "他の拡張機能を無効化してください。"
+  },
+  "s_res__4": {
+    "message": "SpoPlusをアンインストールして再インストールしてください。"
+  },
+  "s_res__5": {
+    "message": "ブラウザのキャッシュをクリアしてください。"
+  },
+  "s_emailme": {
+    "message": "問題が解決しない場合は、こちらのメールアドレスまでご連絡ください："
+  },
+  "s_effic": {
+    "message": "効率的にサポートするため、以下の情報をお知らせください："
+  },
+  "s_detail__1": {
+    "message": "お使いのSpoPlusのバージョン。"
+  },
+  "s_detail__2": {
+    "message": "問題を示すスクリーンショットまたはビデオ。"
+  },
+  "s_detail__3": {
+    "message": "問題の詳細な説明。"
+  },
+  "s_detail__4": {
+    "message": "ブラウザとそのバージョン（例：Firefox 86.0）。"
+  },
+  "theme_9": {
+    "message": "Amoled（高コントラスト）"
+  },
+  "theme_11": {
+    "message": "ライトピンク"
+  },
+  "theme_15": {
+    "message": "ライトピンクディムド"
+  },
+  "theme_12": {
+    "message": "Kimbie Dark（コーヒー）"
+  },
+  "theme_14": {
+    "message": "コンフィレッド"
+  },
+  "mi_11": {
+    "message": "低スペックPC向け最適化を有効化（ベータ版）"
+  },
+  "themes_msg_119": {
+    "message": "----------- 新しいオプション v1.1.9 -----------"
+  },
+  "themes_msg_120": {
+    "message": "----------- 新しいオプション v1.2.0 -----------"
+  },
+  "themes_msg_210": {
+    "message": "----------- 新しいオプション v2.1.0 -----------"
+  },
+  "mi_12": {
+    "message": "クラシックなハートボタンを復活（ベータ版）"
+  }
+}

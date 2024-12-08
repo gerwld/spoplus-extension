@@ -1,0 +1,200 @@
+{
+  "extensionName": {
+    "message": "SpoPlus - Modifier le thème et les paramètres de Spotify"
+  },
+  "extensionDescription": {
+    "message": "Extension Spotify 2024 qui vous permet de configurer de nouveaux thèmes, polices, de supprimer les notifications agaçantes, les popups, et bien plus encore !"
+  },
+  "disabled": {
+    "message": "Vous avez désactivé SpoPlus"
+  },
+  "header_title": {
+    "message": "Extension SpoPlus"
+  },
+  "header_subtitle": {
+    "message": "Configurez de nouveaux thèmes, polices, etc."
+  },
+  "btn_donate": {
+    "message": "Faire un don"
+  },
+  "btn_support": {
+    "message": "Obtenir de l'aide"
+  },
+  "btn_reqfeature": {
+    "message": "Demander une fonctionnalité"
+  },
+  "btn_goback": {
+    "message": "Retour"
+  },
+  "menu_main": {
+    "message": "Fonctionnalités principales :"
+  },
+  "menu_sec": {
+    "message": "Fonctionnalités supplémentaires :"
+  },
+  "menu_palette": {
+    "message": "Palette de couleurs / police :"
+  },
+  "n_default": {
+    "message": "Par défaut"
+  },
+  "mi_1": {
+    "message": "Activer le mode Focus"
+  },
+  "mi_2": {
+    "message": "Masquer le bouton d'en-tête de l'application"
+  },
+  "mi_3": {
+    "message": "Agrandir la barre de navigation"
+  },
+  "mi_4": {
+    "message": "Maintenir la largeur du menu latéral statique"
+  },
+  "mi_5": {
+    "message": "Faire de tous les avatars des rectangles"
+  },
+  "mi_6": {
+    "message": "Désactiver la vue \"En cours de lecture\""
+  },
+  "mi_7": {
+    "message": "Rendre tout en forme de carré"
+  },
+  "mi_8": {
+    "message": "Bloquer toutes les vidéos pour réduire l'utilisation du trafic (expérimental)"
+  },
+  "mi_9": {
+    "message": "Bloquer toutes les images pour réduire l'utilisation du trafic (expérimental)"
+  },
+  "mi_10": {
+    "message": "Palette de couleurs / police :"
+  },
+  "fonts_title": {
+    "message": "Sélectionnez une police :"
+  },
+  "themes_title": {
+    "message": "Sélectionnez un thème :"
+  },
+  "themes_label": {
+    "message": "NOUVEAU"
+  },
+  "themes_msg": {
+    "message": "Nouvelles options v1.1.9"
+  },
+  "theme_1": {
+    "message": "Par défaut (Vert foncé)"
+  },
+  "theme_2": {
+    "message": "Vert clair"
+  },
+  "theme_3": {
+    "message": "Violet foncé"
+  },
+  "theme_4": {
+    "message": "Rose foncé (chatons)"
+  },
+  "theme_5": {
+    "message": "Violet clair"
+  },
+  "theme_6": {
+    "message": "Bleu foncé"
+  },
+  "theme_7": {
+    "message": "Rouge foncé"
+  },
+  "theme_8": {
+    "message": "Jaune foncé"
+  },
+  "d_title": {
+    "message": "Les dons permettent de maintenir SpoPlus opérationnel."
+  },
+  "d_subtitle": {
+    "message": "Je consacre des heures chaque semaine à corriger des bugs, ajouter et améliorer des fonctionnalités, et répondre aux retours des utilisateurs. Votre soutien est crucial pour la maintenance continue."
+  },
+  "d_pp": {
+    "message": "Faire un don via PayPal"
+  },
+  "d_kofi": {
+    "message": "Soutenez-moi sur Ko-Fi"
+  },
+  "d_card": {
+    "message": "Faire un don via carte de crédit ou de débit"
+  },
+  "d_cred__1": {
+    "message": "Vous pouvez aussi partager SpoPlus avec vos amis ou laisser un"
+  },
+  "d_cred__2": {
+    "message": "avis"
+  },
+  "d_cred__3": {
+    "message": "Merci beaucoup."
+  },
+  "s_title": {
+    "message": "Des problèmes avec SpoPlus ?"
+  },
+  "s_subtitle": {
+    "message": "Voici quelques étapes de dépannage que vous pouvez essayer :"
+  },
+  "s_res__1": {
+    "message": "Actualisez la page Spotify."
+  },
+  "s_res__2": {
+    "message": "Désactivez puis réactivez SpoPlus."
+  },
+  "s_res__3": {
+    "message": "Désactivez toutes les autres extensions."
+  },
+  "s_res__4": {
+    "message": "Désinstallez puis réinstallez SpoPlus."
+  },
+  "s_res__5": {
+    "message": "Effacez le cache du navigateur."
+  },
+  "s_emailme": {
+    "message": "Si le problème persiste, veuillez m'envoyer un e-mail à"
+  },
+  "s_effic": {
+    "message": "Pour m'aider à vous assister plus efficacement, veuillez inclure ces informations :"
+  },
+  "s_detail__1": {
+    "message": "La version de SpoPlus que vous utilisez."
+  },
+  "s_detail__2": {
+    "message": "Une capture d'écran ou une vidéo illustrant le problème."
+  },
+  "s_detail__3": {
+    "message": "Une description détaillée du problème."
+  },
+  "s_detail__4": {
+    "message": "Votre navigateur et sa version (par ex., Firefox 86.0)."
+  },
+  "theme_9": {
+    "message": "Amoled (Haut contraste)"
+  },
+  "theme_11": {
+    "message": "Rose clair"
+  },
+  "theme_15": {
+    "message": "Rose clair atténué"
+  },
+  "theme_12": {
+    "message": "Kimbie Dark (café)"
+  },
+  "theme_14": {
+    "message": "Rouge confortable"
+  },
+  "mi_11": {
+    "message": "Activer les optimisations pour PC bas de gamme (bêta)"
+  },
+  "themes_msg_119": {
+    "message": "----------- Nouvelles options v1.1.9 -----------"
+  },
+  "themes_msg_120": {
+    "message": "----------- Nouvelles options v1.2.0 -----------"
+  },
+  "themes_msg_210": {
+    "message": "----------- Nouvelles options v2.1.0 -----------"
+  },
+  "mi_12": {
+  "message": "Ramener le bouton cœur classique (bêta)"
+}
+}

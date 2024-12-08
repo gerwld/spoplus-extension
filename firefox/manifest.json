@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "2.3.0.0",
+  "version": "2.4.2.0",
   "default_locale": "en",
   "icons": {
     "128": "assets/icons/icon128.png"
@@ -65,6 +65,7 @@
     "/assets/graphs/fonts/roboto_condensed.css",
     "/assets/graphs/fonts/inter.css",
     "/assets/graphs/img/cup-border.png",
+    "/assets/img/frog.gif",
     "/assets/img/logo.svg",
     "assets/graphs/themes/light_purple.css",
     "assets/graphs/themes/dark_red.css",
