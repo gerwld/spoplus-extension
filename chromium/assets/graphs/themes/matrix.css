@@ -1,0 +1,20 @@
+/*
+//   - This file is part of SpoPlus Extension
+//  <https://github.com/gerwld/SpoPlus-extension/blob/main/README.md>,
+//   - Copyright (C) 2023-present SpoPlus Extension
+//   -
+//   - SpoPlus Extension is a software: you can redistribute it, but you are not allowed to modify it under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License.
+//   -
+//   - SpoPlus Extension is distributed in the hope that it will be useful,
+//   - but WITHOUT ANY WARRANTY; without even the implied warranty of
+//   - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//   - Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License for more details.
+//   -
+//   - You should have received a copy of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License
+//   - along with SpoPlus Extension.  If not, see <https://creativecommons.org/licenses/by-nc-nd/4.0/>.
+
+
+// Note: Spotify is a registered trademark of Spotify AB. This extension is not affiliated with or endorsed by Spotify AB.
+*/
+
+body,body *{font-family:Inconsolata,monospace!important;color:#76ee51}[data-testid=control-button-repeat],[data-testid=control-button-shuffle],[data-testid=control-button-skip-back],[data-testid=control-button-skip-forward]{border-width:5px!important;border-style:solid!important;-o-border-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABxSURBVHgB7ZOhDoAwDEQ7sr/CYvhZHMEgwXaOBDWLYhjC3MiJoQgZnd2ppsnLib6qrp8CCbJaGzSGpq1/geMwExsmHRdsliRw3xxayV+eKsqICD4PJ4ezmgsszGMYzBHBcBXKxeMnw/gOSA5XX6K+4BvV2i0qG2NhoAAAAABJRU5ErkJggg==) 5 round!important;border-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABxSURBVHgB7ZOhDoAwDEQ7sr/CYvhZHMEgwXaOBDWLYhjC3MiJoQgZnd2ppsnLib6qrp8CCbJaGzSGpq1/geMwExsmHRdsliRw3xxayV+eKsqICD4PJ4ezmgsszGMYzBHBcBXKxeMnw/gOSA5XX6K+4BvV2i0qG2NhoAAAAABJRU5ErkJggg==) 5 round!important;background:#bfcdd5!important}li[role=listitem],li[role=listitem] *,li[role=listitem]>*{color:#76ee51}[data-testid=play-button] svg{fill:#fff}.S4OmZ_IZexmZ5dasPqW5{background:url(https://as1.ftcdn.net/v2/jpg/02/86/00/18/1000_F_286001899_BzwjxnzuSEBpFmqqyWGy35IMBUl1eKXf.jpg)}
