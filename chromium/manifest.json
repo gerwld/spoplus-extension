@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "2.4.3.0",
+  "version": "2.5.2",
   "default_locale": "en",
   "icons": {
     "128": "assets/icons/icon128.png"
@@ -43,7 +43,7 @@
         "assets/graphs/fonts/gabarito.css",
         "assets/graphs/fonts/roboto_condensed.css",
         "assets/graphs/fonts/inter.css",
-        "assets/graphs/img/cup-border.png",
+        "assets/img/cup-border.png",
         "assets/img/logo.svg",
         "assets/graphs/themes/light_purple.css",
         "assets/graphs/themes/dark_red.css",
@@ -59,6 +59,7 @@
         "assets/graphs/themes/solarized_dark.css",
         "assets/graphs/themes/quiet_light.css",
         "assets/graphs/themes/matrix.css",
+        "assets/graphs/themes/matrix_purple.css",
         "assets/graphs/heart_icons.css",
         "assets/img/placeholders/ac-row-placeholder.png",
         "assets/img/placeholders/ylx-artist-row-placeholder.png",
@@ -66,7 +67,9 @@
         "assets/img/placeholders/ylx-compact-row-placeholder.png",
         "assets/img/placeholders/tracklist-placeholder.png",
         "assets/img/placeholders/ylx-row-placeholder.png",
-        "/assets/img/frog.gif"
+        "/assets/img/frog.gif",
+        "/assets/img/matrix.png",
+        "/assets/img/matrix_purple.png"
       ],
       "matches": [
         "<all_urls>"
