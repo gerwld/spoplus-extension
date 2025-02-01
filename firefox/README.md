@@ -10,7 +10,13 @@ Extension that allows you to customize and personalize the web version of Spotif
 
 ***
 
-<p align="center"><a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/SpoPlus-edit-Spotify-them/ijkboaojikgaanlgigobkmbpnjgjljnc"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>  <a rel="noreferrer noopener" href="https://addons.mozilla.org/en-US/firefox/addon/SpoPlus/"><img alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox-141e24.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white"></a>  <a rel="noreferrer noopener" href="https://microsoftedge.microsoft.com/addons/detail/SpoPlus-edit-Spotify-th/lgdkbggfepmoagpcgbiblopcllepifjn"><img alt="Edge Addons" src="https://img.shields.io/badge/Edge-141e24.svg?&style=for-the-badge&logo=microsoft-edge&logoColor=white"></a>  <a href="#soon" title="Soon" rel="noreferrer noopener"><img height="28" alt="Apple App Store" src="https://img.shields.io/badge/Safari-141e24.svg?&style=for-the-badge&logo=microsoft-edge&logoColor=white"></a>
+<p align="center">
+  <a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/SpoPlus-edit-Spotify-them/ijkboaojikgaanlgigobkmbpnjgjljnc"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>  
+  <a rel="noreferrer noopener" href="https://addons.mozilla.org/en-US/firefox/addon/SpoPlus/"><img alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox-141e24.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white"></a>  
+  <a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/SpoPlus-edit-Spotify-them/ijkboaojikgaanlgigobkmbpnjgjljnc"><img alt="Opera / Opera GX Browser" src="https://img.shields.io/badge/Opera-141e24.svg?&style=for-the-badge&logo=opera&logoColor=white"></a>
+  <a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/SpoPlus-edit-Spotify-them/ijkboaojikgaanlgigobkmbpnjgjljnc"><img alt="Brave Browser" src="https://img.shields.io/badge/Brave-141e24.svg?&style=for-the-badge&logo=brave&logoColor=white"></a>  
+  <a rel="noreferrer noopener" href="https://microsoftedge.microsoft.com/addons/detail/SpoPlus-edit-Spotify-th/lgdkbggfepmoagpcgbiblopcllepifjn"><img alt="Edge Addons" src="https://img.shields.io/badge/Edge-141e24.svg?&style=for-the-badge&logo=e&logoColor=white"></a>  
+  <a href="#soon" title="Soon" rel="noreferrer noopener"><img height="28" alt="Apple App Store" src="https://img.shields.io/badge/Safari-141e24.svg?&style=for-the-badge&logo=safari&logoColor=white"></a>
 
 
 
