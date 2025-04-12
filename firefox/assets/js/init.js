@@ -14,4 +14,4 @@
 
 
 // Note: Spotify is a registered trademark of Spotify AB. This extension is not affiliated with or endorsed by Spotify AB.
-(()=>{"use strict";chrome.storage.local.get("formState",e=>{e.formState.dark_mode?document.documentElement.classList.add("dark_mode"):document.documentElement.classList.remove("dark_mode")})})();
+chrome.storage.local.get("formState",e=>{e.formState.dark_mode?document.documentElement.classList.add("dark_mode"):document.documentElement.classList.remove("dark_mode")});
