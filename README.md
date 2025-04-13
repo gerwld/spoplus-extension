@@ -16,8 +16,6 @@ Extension that allows you to customize and personalize the web version of Spotif
   <a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/SpoPlus-edit-Spotify-them/ijkboaojikgaanlgigobkmbpnjgjljnc"><img alt="Opera / Opera GX Browser" src="https://img.shields.io/badge/Opera-141e24.svg?&style=for-the-badge&logo=opera&logoColor=white"></a>
   <a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/SpoPlus-edit-Spotify-them/ijkboaojikgaanlgigobkmbpnjgjljnc"><img alt="Brave Browser" src="https://img.shields.io/badge/Brave-141e24.svg?&style=for-the-badge&logo=brave&logoColor=white"></a>  
   <a rel="noreferrer noopener" href="https://microsoftedge.microsoft.com/addons/detail/SpoPlus-edit-Spotify-th/lgdkbggfepmoagpcgbiblopcllepifjn"><img alt="Edge Addons" src="https://img.shields.io/badge/Edge-141e24.svg?&style=for-the-badge&logo=e&logoColor=white"></a>  
-  <a href="#soon" title="Soon" rel="noreferrer noopener"><img height="28" alt="Apple App Store" src="https://img.shields.io/badge/Safari-141e24.svg?&style=for-the-badge&logo=safari&logoColor=white"></a>
-
 
 
 ## Features
@@ -40,7 +38,6 @@ Once the extension is installed, follow these steps to start customizing your Sp
 1. **Activation:** Open the web version of Spotify in your Browser.
 2. **Extension Access:** Click on the SpoPlus Extension extension icon in the browser toolbar to activate it.
 3. **Customization:** Access the extension options to start customizing your Spotify experience. Choose from various customization features, including element visibility, theme selection, and element styling.
-4. **Enjoy!** Sit back, relax, and enjoy your personalized Spotify interface.
 
 ## Contributing
 
@@ -52,7 +49,7 @@ SpoPlus Extension is released under the Creative Commons Attribution-NonCommerci
 
 See the [LICENSE](LICENSE.md) file for more details.
 
-For any inquiries regarding commercial use or permission, please contact the creator at [pjaworski.dev@gmail.com].
+For any inquiries regarding commercial use or permission, please contact us at [pjaworski.dev@gmail.com].
 
 
 ## Contact
